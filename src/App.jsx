@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="App">
-     Hola 
+     Hola aca va la pagina de ode
     </div>
   )
 }
