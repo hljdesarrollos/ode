@@ -4,12 +4,12 @@ import Home from "./pages/home";
 import Tratamientos from "./pages/tratamientos";
 import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/contacto";
-import Navbar from "./components/navbar";
+import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tratamientos" element={<Tratamientos />} />
