@@ -48,7 +48,7 @@ const Navbar = () => {
                   }}
                   className="navbar-link dropmenu"
                 >
-                  Tratamientos
+                  Tratamientos <i class="fa-solid fa-chevron-down"></i>
                 </a>
               </li>
               <li className="navbar-item">
@@ -90,7 +90,7 @@ const Navbar = () => {
             <hr />
             <div className="row">
               {salud.map((item) => (
-                <MenuItem
+                <MenuItem key={item.ref}
                   item={item}
                   columns="col-4"
                   show={{ show, setShow }}
@@ -103,7 +103,7 @@ const Navbar = () => {
             <hr />
             <div className="row">
               {estetica.map((item) => (
-                <MenuItem
+                <MenuItem key={item.ref}
                   item={item}
                   columns="col-12"
                   show={{ show, setShow }}

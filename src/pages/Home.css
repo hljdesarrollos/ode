@@ -1,13 +1,79 @@
-.home .presentacion{
-    background-color: var(--main-color);
+.home .presentacion {
+  background: var(--main-color); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--second-color)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--second-color)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home .presentacion .presentacion-portada {
-    padding: 4.5rem 0;
+  padding: 4.6rem 10px;
+}
+
+.home .presentacion .presentacion-portada .info { 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home .presentacion .presentacion-portada .info_text { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex:1;
+  padding: 1.2rem 4rem 0;
+}
+
+.home .presentacion .presentacion-portada .info_text div { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home .presentacion .presentacion-title {
+  font-family: var(--secondary-fontfamily);
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+
+.home .presentacion .btn-action {
+  background-color: var(--main-color);
+  font-family: var(--title-fontfamily);
+  font-weight: 600;
+  color: #fff;
+  margin: 0 1rem 1.2rem;
+  width: 60%;
+  padding: 10px;
 }
 
 .home .presentacion .presentacion-info {
-    font-family: var(--title-fontfamily);
-    font-size: 14px;
-    color: white;
+  background-color: var(--main-color);
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+  color: white;
+  padding: 13px 0;
+}
+
+.home .presentacion .presentacion-info div{
+  padding: 0;
+}
+
+.home .presentacion .presentacion-info div:not(:first-child) p {
+  border-left: 1px solid white;
+}
+
+.home .presentacion .presentacion-info p {
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.home .presentacion .presentacion-info p svg {
+  margin-right: 35px;
 }

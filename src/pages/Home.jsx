@@ -1,4 +1,4 @@
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
       <article className="presentacion container-fluid">
         <div className="row presentacion-portada">
           <div className="col-3"></div>
-          <div className="col-6">
+          <div className="col-8 info">
             <svg
               width="264"
               height="265"
@@ -31,13 +31,78 @@ const Home = () => {
                 fill="#FAFFFB"
               />
             </svg>
+            <div className="info_text">
+              <h1 className="presentacion-title">“Sonriamos juntos”</h1>
+              <div>
+                <a className="btn btn-action">Solicitá tu turno por Whatsapp</a>
+                <a className="btn btn-action">Contactános por telefono</a>
+              </div>
+            </div>
           </div>
-          <div className="col-3"></div>
+
+          <div className="col-2"></div>
         </div>
-        <div className='row d-flex align-content-center presentacion-info'>
-          <div className="col-4 text-center">Dirección Tte. Gral. Juan Domingo Perón 1618</div>
-          <div className="col-4 text-center">Mail: deodontologia@ode.com.ar</div>
-          <div className="col-4 text-center">Horarios: De lu. a sa. de 9:00 a 20 hs.</div>
+        <div className="row d-flex align-content-center presentacion-info">
+          <div className="col-4 text-center">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-map-pin"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Dirección Tte. Gral. Juan Domingo Perón 1618
+            </p>
+          </div>
+          <div className="col-4 text-center">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-mail"
+              >
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Mail: deodontologia@ode.com.ar
+            </p>
+          </div>
+          <div className="col-4 text-center">
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-clock"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              Horarios: De lu. a sa. de 9:00 a 20 hs.
+            </p>
+          </div>
         </div>
       </article>
     </section>
