@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import tratamientos from "../assets/tratamientos.json";
+import MenuItem from "./MenuItem";
 
 const Navbar = () => {
   const [show, setShow] = useState(true);
+  const { salud, estetica } = tratamientos[0];
 
   return (
     <section className="navigation">
@@ -26,6 +29,9 @@ const Navbar = () => {
             <ul className="navbar-nav text-end ms-auto mb-2 mb-lg-0">
               <li className="navbar-item">
                 <NavLink
+                  onClick={() => {
+                    setShow(true);
+                  }}
                   className={({ isActive }) =>
                     isActive ? "navbar-link navbar-link_active" : "navbar-link"
                   }
@@ -47,6 +53,9 @@ const Navbar = () => {
               </li>
               <li className="navbar-item">
                 <NavLink
+                  onClick={() => {
+                    setShow(true);
+                  }}
                   className={({ isActive }) =>
                     isActive ? "navbar-link navbar-link_active" : "navbar-link"
                   }
@@ -58,6 +67,9 @@ const Navbar = () => {
               </li>
               <li className="navbar-item">
                 <NavLink
+                  onClick={() => {
+                    setShow(true);
+                  }}
                   className={({ isActive }) =>
                     isActive ? "navbar-link navbar-link_active" : "navbar-link"
                   }
@@ -77,116 +89,26 @@ const Navbar = () => {
             <p className="tipo-tratamiento">Salud Dental</p>
             <hr />
             <div className="row">
-              <div className="col-4">
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/implantes dentales"}
-                    className="tratamiento-link"
-                  >
-                    Implantes Dentales
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/protesis dental"}
-                    className="tratamiento-link"
-                  >
-                    Prótesis Dental
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/ortodoncia"}
-                    className="tratamiento-link"
-                  >
-                    Ortodóncia
-                  </NavLink>
-                </p>
-              </div>
-              <div className="col-4">
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/implantes dentales"}
-                    className="tratamiento-link"
-                  >
-                    Implantes Dentales
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/protesis dental"}
-                    className="tratamiento-link"
-                  >
-                    Prótesis Dental
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/ortodoncia"}
-                    className="tratamiento-link"
-                  >
-                    Ortodóncia
-                  </NavLink>
-                </p>
-              </div>
-              <div className="col-4">
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/implantes dentales"}
-                    className="tratamiento-link"
-                  >
-                    Implantes Dentales
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/protesis dental"}
-                    className="tratamiento-link"
-                  >
-                    Prótesis Dental
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/ortodoncia"}
-                    className="tratamiento-link"
-                  >
-                    Ortodóncia
-                  </NavLink>
-                </p>
-              </div>
+              {salud.map((item) => (
+                <MenuItem
+                  item={item}
+                  columns="col-4"
+                  show={{ show, setShow }}
+                />
+              ))}
             </div>
           </article>
           <article className="col-4">
             <p className="tipo-tratamiento">Estética Dental</p>
             <hr />
             <div className="row">
-              <div className="col-12">
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/implantes dentales"}
-                    className="tratamiento-link"
-                  >
-                    Implantes Dentales
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/protesis dental"}
-                    className="tratamiento-link"
-                  >
-                    Prótesis Dental
-                  </NavLink>
-                </p>
-                <p className="tratamiento">
-                  <NavLink
-                    to={"/tratamientos/ortodoncia"}
-                    className="tratamiento-link"
-                  >
-                    Ortodóncia
-                  </NavLink>
-                </p>
-              </div>
+              {estetica.map((item) => (
+                <MenuItem
+                  item={item}
+                  columns="col-12"
+                  show={{ show, setShow }}
+                />
+              ))}
             </div>
           </article>
         </section>
