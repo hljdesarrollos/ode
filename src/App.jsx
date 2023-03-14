@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Tratamientos from "./pages/tratamientos";
+import Home from "./pages/Home";
+import Tratamientos from "./pages/Tratamientos";
 import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/contacto";
 import Header from "./components/Header";
