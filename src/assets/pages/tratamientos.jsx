@@ -5,10 +5,10 @@ function Tratamientos() {
   let {nombre} = useParams();
 
   let nombretrata= [
-    "implantes dentales",
-    "protesis dentales",
+    "implantesdentales",
+    "protesisdentales",
     "ortodoncia",
-    "blanqueamiento",
+    "blanqueamiento"
   ];
 
   return (
