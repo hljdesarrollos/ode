@@ -1,0 +1,13 @@
+.home .presentacion{
+    background-color: var(--main-color);
+}
+
+.home .presentacion .presentacion-portada {
+    padding: 4.5rem 0;
+}
+
+.home .presentacion .presentacion-info {
+    font-family: var(--title-fontfamily);
+    font-size: 14px;
+    color: white;
+}
