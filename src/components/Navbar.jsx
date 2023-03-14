@@ -78,18 +78,82 @@ const Navbar = () => {
             <hr />
             <div className="row">
               <div className="col-4">
-                <p className="tratamiento">Implantes Dentales</p>
-                <p className="tratamiento">Prótesis Dental</p>
-                <p className="tratamiento">Ortodóncia</p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/implantes dentales"}
+                    className="tratamiento-link"
+                  >
+                    Implantes Dentales
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/protesis dental"}
+                    className="tratamiento-link"
+                  >
+                    Prótesis Dental
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/ortodoncia"}
+                    className="tratamiento-link"
+                  >
+                    Ortodóncia
+                  </NavLink>
+                </p>
               </div>
               <div className="col-4">
-                <p className="tratamiento">Implantes Dentales</p>
-                <p className="tratamiento">Prótesis Dental</p>
-                <p className="tratamiento">Ortodóncia</p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/implantes dentales"}
+                    className="tratamiento-link"
+                  >
+                    Implantes Dentales
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/protesis dental"}
+                    className="tratamiento-link"
+                  >
+                    Prótesis Dental
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/ortodoncia"}
+                    className="tratamiento-link"
+                  >
+                    Ortodóncia
+                  </NavLink>
+                </p>
               </div>
               <div className="col-4">
-                <p className="tratamiento">Implantes Dentales</p>
-                <p className="tratamiento">Prótesis Dental</p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/implantes dentales"}
+                    className="tratamiento-link"
+                  >
+                    Implantes Dentales
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/protesis dental"}
+                    className="tratamiento-link"
+                  >
+                    Prótesis Dental
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/ortodoncia"}
+                    className="tratamiento-link"
+                  >
+                    Ortodóncia
+                  </NavLink>
+                </p>
               </div>
             </div>
           </article>
@@ -98,9 +162,30 @@ const Navbar = () => {
             <hr />
             <div className="row">
               <div className="col-12">
-                <p className="tratamiento">Implantes Dentales</p>
-                <p className="tratamiento">Prótesis Dental</p>
-                <p className="tratamiento">Ortodóncia</p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/implantes dentales"}
+                    className="tratamiento-link"
+                  >
+                    Implantes Dentales
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/protesis dental"}
+                    className="tratamiento-link"
+                  >
+                    Prótesis Dental
+                  </NavLink>
+                </p>
+                <p className="tratamiento">
+                  <NavLink
+                    to={"/tratamientos/ortodoncia"}
+                    className="tratamiento-link"
+                  >
+                    Ortodóncia
+                  </NavLink>
+                </p>
               </div>
             </div>
           </article>

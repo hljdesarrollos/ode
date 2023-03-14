@@ -40,12 +40,13 @@
     line-height: 17px;
 }
 
-.navbar-item .dropmenu{
+.navbar-item .dropmenu {
     cursor: pointer;
 }
 
 .navbar-item .navbar-link_active {
-    font-weight: bold;
+    color: #228A5C;
+    font-weight: 600;
 }
 
 .navigation {
@@ -61,16 +62,21 @@
     background-color: #fff;
 }
 
-.navigation .menu-tratamientos .tratamientos-container{
+.navigation .menu-tratamientos .tratamientos-container {
     padding: 2.5rem 7rem;
     color: var(--main-color)
 }
 
-.navigation .menu-tratamientos .tratamientos-container .tratamiento{
+.navigation .menu-tratamientos .tratamientos-container .tipo-tratamiento {
+    font-size: 16px;
+}
+
+.navigation .menu-tratamientos .tratamientos-container .tratamiento {
     font-size: 14px;
     padding: 10px 0;
 }
 
-.navigation .menu-tratamientos .tratamientos-container .tipo-tratamiento{
-    font-size: 16px;
+.navigation .menu-tratamientos .tratamientos-container .tratamiento .tratamiento-link {
+    text-decoration: none;
+    color: var(--main-color)
 }
