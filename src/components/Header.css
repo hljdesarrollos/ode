@@ -8,9 +8,6 @@
 .top-header .top-header_brand {
     width: 4rem;
     height: 4rem;
-    border: 2px solid white;
-    border-radius: 50%;
-    text-align: center;
 }
 
 .top-header .top-header_turno {
