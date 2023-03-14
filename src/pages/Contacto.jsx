@@ -1,6 +1,4 @@
-import React from 'react'
-
-function Contacto() {
+const Contacto = () => {
   return (
     <div>Contacto</div>
   )

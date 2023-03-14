@@ -1,13 +1,23 @@
 import "./App.css";
-import Navbar from "../src/assets/routes/navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import Tratamientos from "./pages/tratamientos";
+import Nosotros from "./pages/Nosotros";
+import Contacto from "./pages/contacto";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="App">
-      Hola aca va la pagina de ode en https://ode-odontologia.netlify.app se ve
-      el previo o merge que se hace a rama desarrollo.
+    <BrowserRouter>
       <Navbar />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/tratamientos" element={<Tratamientos />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/tratamientos/:nombre" element={<Tratamientos />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
