@@ -77,3 +77,53 @@
 .home .presentacion .presentacion-info p svg {
   margin-right: 35px;
 }
+
+.somos .somos-title {
+  font-family: var(--third-fontfamily);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  color: var(--main-color);
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+
+.somos .somos-description {
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+  text-align: center;
+}
+
+.somos .somos-definicion {
+  margin-top: 4rem;
+}
+
+.somos .somos-definicion .somos-card {
+  position: relative;
+  border: 1px solid #00AF62;
+  border-radius: 10px;
+  padding: 3rem 5rem 2rem;
+  text-align: center;
+}
+
+.somos .somos-definicion .somos-card .somos-card_title {
+  font-family: var(--third-fontfamily);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #00AF62;
+}
+
+.somos .somos-definicion .somos-card .somos-card_text {
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+}
+
+.somos-card_img {
+  position: absolute;
+  background-color: #00AF62;
+  padding: 15px;
+  border-radius: 50%;
+  top:-35px;
+  left: 44%;
+}

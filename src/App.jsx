@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Tratamientos from "./pages/Tratamientos";
 import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/Contacto";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 function App() {
   return (

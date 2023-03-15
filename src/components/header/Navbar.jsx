@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import tratamientos from "../assets/tratamientos.json";
+import tratamientos from "../../assets/tratamientos.json";
 import MenuItem from "./MenuItem";
 
 const Navbar = () => {
@@ -90,7 +90,8 @@ const Navbar = () => {
             <hr />
             <div className="row">
               {salud.map((item) => (
-                <MenuItem key={item.ref}
+                <MenuItem
+                  key={item.ref}
                   item={item}
                   columns="col-4"
                   show={{ show, setShow }}
@@ -103,7 +104,8 @@ const Navbar = () => {
             <hr />
             <div className="row">
               {estetica.map((item) => (
-                <MenuItem key={item.ref}
+                <MenuItem
+                  key={item.ref}
                   item={item}
                   columns="col-12"
                   show={{ show, setShow }}

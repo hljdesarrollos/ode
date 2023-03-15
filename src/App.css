@@ -1,9 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: 'FF Nort';
+    src: url('./public/fonts/FFNort-Black.eot');
+    src: local('FF Nort Black'), local('FFNort-Black'),
+        url('./public/fonts/FFNort-Black.woff2') format('woff2'),
+        url('./public/fonts/FFNort-Black.woff') format('woff'),
+        url('./public/fonts/FFNort-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FF Nort';
+    src: url('./public/fonts/FFNort-Regular.eot');
+    src: local('FF Nort Regular'), local('FFNort-Regular'),
+        url('./public/fonts/FFNort-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./public/fonts/FFNort-Regular.woff2') format('woff2'),
+        url('./public/fonts/FFNort-Regular.woff') format('woff'),
+        url('./public/fonts/FFNort-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FF Nort Med';
+    src: url('FFNort-Medium.eot');
+    src: local('FF Nort Medium'), local('FFNort-Medium'),
+        url('FFNort-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FFNort-Medium.woff2') format('woff2'),
+        url('FFNort-Medium.woff') format('woff'),
+        url('FFNort-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
 :root {
     --main-color: #00AF62;
     --second-color: #1A4DBC;
     --title-fontfamily: 'Montserrat', sans-serif;
-    --secondary-fontfamily: 'Lora', serif;;
+    --secondary-fontfamily: 'Lora', serif;
+    --third-fontfamily: 'FF Nort';
+    --fourth-fontfamily: 'FF Nort Med'
 }
