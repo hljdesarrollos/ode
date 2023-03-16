@@ -1,0 +1,27 @@
+#divfloat {
+  position: fixed !important;
+  bottom: 45px;
+  right: 15px;
+  display: none;
+  z-index: 10;
+}
+.btncircle {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+#btnwasa {
+  fill: rgb(37, 211, 102);
+}
+#divfloat a {
+  text-decoration: none;
+  border: none;
+}
+
+#divfloat a:hover {
+  transform: scale(1.3);
+}
+
