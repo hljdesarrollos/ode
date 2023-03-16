@@ -17,8 +17,9 @@ function Testimonios() {
       <h3 className="text-center">Opiniones</h3>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide"
+        className="carousel slide carousel-dark"
         data-bs-ride="true"
+        data-bs-interval="3000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
