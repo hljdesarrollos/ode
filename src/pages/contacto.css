@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+i {
+  margin-right: 2rem;
+  color: #00af62;
+}
+
+a {
+  text-decoration: none;
+}
+strong {
+  color: rgb(70, 70, 70);
+}
+
+.contacto-text {
+  justify-content: space-between;
+}
