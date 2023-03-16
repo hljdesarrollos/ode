@@ -1,0 +1,129 @@
+.home .presentacion {
+  background: var(--main-color); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--second-color)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--second-color)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home .presentacion .presentacion-portada {
+  padding: 4.6rem 10px;
+}
+
+.home .presentacion .presentacion-portada .info { 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home .presentacion .presentacion-portada .info_text { 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex:1;
+  padding: 1.2rem 4rem 0;
+}
+
+.home .presentacion .presentacion-portada .info_text div { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home .presentacion .presentacion-title {
+  font-family: var(--secondary-fontfamily);
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+
+.home .presentacion .btn-action {
+  background-color: var(--main-color);
+  font-family: var(--title-fontfamily);
+  font-weight: 600;
+  color: #fff;
+  margin: 0 1rem 1.2rem;
+  width: 60%;
+  padding: 10px;
+}
+
+.home .presentacion .presentacion-info {
+  background-color: var(--main-color);
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+  color: white;
+  padding: 13px 0;
+}
+
+.home .presentacion .presentacion-info div{
+  padding: 0;
+}
+
+.home .presentacion .presentacion-info div:not(:first-child) p {
+  border-left: 1px solid white;
+}
+
+.home .presentacion .presentacion-info p {
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.home .presentacion .presentacion-info p svg {
+  margin-right: 35px;
+}
+
+.somos .somos-title {
+  font-family: var(--third-fontfamily);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  color: var(--main-color);
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+
+.somos .somos-description {
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+  text-align: center;
+}
+
+.somos .somos-definicion {
+  margin-top: 4rem;
+}
+
+.somos .somos-definicion .somos-card {
+  position: relative;
+  border: 1px solid #00AF62;
+  border-radius: 10px;
+  padding: 3rem 5rem 2rem;
+  text-align: center;
+}
+
+.somos .somos-definicion .somos-card .somos-card_title {
+  font-family: var(--third-fontfamily);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #00AF62;
+}
+
+.somos .somos-definicion .somos-card .somos-card_text {
+  font-family: var(--title-fontfamily);
+  font-size: 14px;
+}
+
+.somos-card_img {
+  position: absolute;
+  background-color: #00AF62;
+  padding: 15px;
+  border-radius: 50%;
+  top:-35px;
+  left: 44%;
+}
