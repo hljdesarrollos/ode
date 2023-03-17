@@ -8,7 +8,7 @@ const Home = () => {
     <section className="home">
       <Portada />
       <Somos />
-      <Testimonios />
+      {/* <Testimonios /> */}
     </section>
   );
 };

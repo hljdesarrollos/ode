@@ -4,8 +4,7 @@ const Portada = () => {
   return (
     <article className="presentacion container-fluid">
       <div className="row presentacion-portada">
-        <div className="col-3"></div>
-        <div className="col-8 info">
+        <div className="offset-md-3 offset-lg-3 col-3 d-lg-flex d-none">
           <svg
             width="264"
             height="265"
@@ -30,6 +29,8 @@ const Portada = () => {
               fill="#FAFFFB"
             />
           </svg>
+        </div>
+        <div className="col-lg-6 col-12 info">
           <div className="info_text">
             <h1 className="presentacion-title">“Sonriamos juntos”</h1>
             <div>
@@ -38,11 +39,9 @@ const Portada = () => {
             </div>
           </div>
         </div>
-
-        <div className="col-2"></div>
       </div>
       <div className="row d-flex align-content-center presentacion-info">
-        <div className="col-4 text-center">
+        <div className="col-12 col-sm-12 col-md-4 text-center">
           <p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +61,7 @@ const Portada = () => {
             Dirección Tte. Gral. Juan Domingo Perón 1618
           </p>
         </div>
-        <div className="col-4 text-center">
+        <div className="col-12 col-sm-12 col-md-4 text-center">
           <p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +81,7 @@ const Portada = () => {
             Mail: deodontologia@ode.com.ar
           </p>
         </div>
-        <div className="col-4 text-center">
+        <div className="col-12 col-sm-12 col-md-4 text-center">
           <p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

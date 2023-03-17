@@ -16,17 +16,12 @@
   padding: 4.6rem 10px;
 }
 
-.home .presentacion .presentacion-portada .info { 
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .home .presentacion .presentacion-portada .info_text { 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   flex:1;
-  padding: 1.2rem 4rem 0;
+  padding: 1.2rem 0;
 }
 
 .home .presentacion .presentacion-portada .info_text div { 
@@ -49,8 +44,8 @@
   font-weight: 600;
   color: #fff;
   margin: 0 1rem 1.2rem;
-  width: 60%;
-  padding: 10px;
+  width: 50%;
+  padding: 10px 0;
 }
 
 .home .presentacion .presentacion-info {
@@ -77,6 +72,46 @@
 .home .presentacion .presentacion-info p svg {
   margin-right: 35px;
 }
+
+@media (max-width: 1025px) {
+  .home .presentacion .presentacion-portada {
+    padding: 2rem 0;
+  }
+
+  .home .presentacion .presentacion-title {
+    font-size: 2.5rem;
+  }
+  
+  .home .presentacion .btn-action {
+    font-size: .8rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 769px) {
+  .home .presentacion .presentacion-title {
+    font-size: 3rem;
+  }
+  
+  .home .presentacion .btn-action {
+    font-size: 1rem;
+    width: 40%;
+  }
+}
+
+@media (max-width: 426px) {
+  .home .presentacion .presentacion-title {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .home .presentacion .btn-action {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+
 
 .somos .somos-title {
   font-family: var(--third-fontfamily);
