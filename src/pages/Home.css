@@ -119,11 +119,12 @@
   font-size: 14px;
 }
 
-.somos-card_img {
+.somos .somos-definicion .somos-card .somos-card_img {
   position: absolute;
   background-color: #00AF62;
   padding: 15px;
   border-radius: 50%;
   top:-35px;
-  left: 44%;
+  left: -33px;
+  margin-left: 50%;
 }
