@@ -47,7 +47,6 @@ const Contacto = () => {
           <li>
             <a href="tel:46647931">
               <i className="fa-solid fa-phone-volume fa-xl"></i>
-              {/* <i class="fa-regular fa-phone-volume fa-xl"></i> */}
               <strong>Teléfono: 4664-7931</strong>
             </a>
           </li>
