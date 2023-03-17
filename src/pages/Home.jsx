@@ -1,6 +1,7 @@
 import Portada from "../components/home/Portada";
 import Somos from "../components/home/Somos";
-import Testimonios from "../components/opiniones/testimonios";
+import Tratamientos from "../components/home/Tratamientos";
+// import Testimonios from "../components/opiniones/testimonios";
 import "./Home.css";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <section className="home">
       <Portada />
       <Somos />
+      <Tratamientos />
       {/* <Testimonios /> */}
     </section>
   );

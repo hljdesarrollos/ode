@@ -111,18 +111,6 @@
   }
 }
 
-
-
-.somos .somos-title {
-  font-family: var(--third-fontfamily);
-  font-weight: 600;
-  font-style: normal;
-  font-size: 22px;
-  color: var(--main-color);
-  text-align: center;
-  margin: 4rem 0 2rem;
-}
-
 .somos .somos-description {
   font-family: var(--title-fontfamily);
   font-size: 14px;
@@ -162,4 +150,51 @@
   top:-35px;
   left: -33px;
   margin-left: 50%;
+}
+
+.somos .btn-nosotros {
+  text-decoration: none;
+  border-color: #00AF62;
+  color:#00AF62;
+  font-family: var(--title-fontfamily);
+  font-size: 16px;
+  font-weight: 700; 
+}
+
+.section-title {
+  font-family: var(--third-fontfamily);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  color: var(--main-color);
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+
+.home .tratamientos .t-cards .t-card {
+  position: relative;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #00AF62;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.home .tratamientos .t-cards .t-card .t-card-image{ 
+  position: absolute;
+  top: -100px;
+  border-bottom-left-radius: 70% 25%;
+  border-bottom-right-radius: 70% 25%;
+}
+
+.home .tratamientos .t-cards .t-card .t-card-text{ 
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  margin: 1.2rem; 
+  text-align: center;
 }

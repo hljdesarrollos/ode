@@ -1,0 +1,15 @@
+.footer {
+    background: #1A4DBC;
+    color: white;
+    font-family: var(--title-fontfamily);
+    font-size: 12px;
+    padding: 2.5rem;
+}
+
+.footer .footer-title {
+    font-size: 14px;
+}
+
+.footer .footer-social{
+    margin-right: 1rem;
+}

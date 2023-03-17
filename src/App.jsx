@@ -5,6 +5,7 @@ import Tratamientos from "./pages/Tratamientos";
 import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/Contacto";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/tratamientos/:nombre" element={<Tratamientos />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import check from "../../public/image/check.png";
 import heart from "../../public/image/heart.png";
 import { CardValores } from "./CardValores";
@@ -5,7 +6,7 @@ import { CardValores } from "./CardValores";
 const Somos = () => {
   return (
     <article className="somos container container-md-fluid">
-      <h2 className="somos-title">Hola, somos ODE</h2>
+      <h2 className="section-title">Hola, somos ODE</h2>
       <section className="row">
         <article className="offset-lg-1 col-lg-10 offset-md-1 col-md-10 offset-sm-2 col-sm-8 offset-1 col-10">
           <p className="somos-description">
@@ -35,6 +36,11 @@ const Somos = () => {
             img={heart}
           />
         </article>
+      </section>
+      <section className="text-center">
+        <Link to={'/nosotros'} className="btn btn-nosotros">
+          Ver mas sobre nosotros
+        </Link>
       </section>
     </article>
   );
