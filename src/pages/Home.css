@@ -1,30 +1,29 @@
 .home .presentacion {
-  background: var(--main-color); /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    var(--main-color),
-    var(--second-color)
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    var(--main-color),
-    var(--second-color)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--main-color);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom,
+      var(--main-color),
+      var(--second-color));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom,
+      var(--main-color),
+      var(--second-color));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home .presentacion .presentacion-portada {
   padding: 4.6rem 10px;
 }
 
-.home .presentacion .presentacion-portada .info_text { 
+.home .presentacion .presentacion-portada .info_text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex:1;
+  flex: 1;
   padding: 1.2rem 0;
 }
 
-.home .presentacion .presentacion-portada .info_text div { 
+.home .presentacion .presentacion-portada .info_text div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,7 +55,7 @@
   padding: 13px 0;
 }
 
-.home .presentacion .presentacion-info div{
+.home .presentacion .presentacion-info div {
   padding: 0;
 }
 
@@ -81,7 +80,7 @@
   .home .presentacion .presentacion-title {
     font-size: 2.5rem;
   }
-  
+
   .home .presentacion .btn-action {
     font-size: .8rem;
     width: 50%;
@@ -92,7 +91,7 @@
   .home .presentacion .presentacion-title {
     font-size: 3rem;
   }
-  
+
   .home .presentacion .btn-action {
     font-size: 1rem;
     width: 40%;
@@ -104,61 +103,26 @@
     text-align: center;
     font-size: 3rem;
   }
-  
+
   .home .presentacion .btn-action {
     width: 100%;
     margin: 1rem 0;
   }
 }
 
-.somos .somos-description {
-  font-family: var(--title-fontfamily);
-  font-size: 14px;
-  text-align: center;
-}
-
-.somos .somos-definicion {
-  margin-top: 4rem;
-}
-
-.somos .somos-definicion .somos-card {
-  position: relative;
-  border: 1px solid #00AF62;
-  border-radius: 10px;
-  padding: 3rem 5rem 2rem;
-  text-align: center;
-}
-
-.somos .somos-definicion .somos-card .somos-card_title {
-  font-family: var(--third-fontfamily);
-  font-weight: 600;
-  font-style: normal;
-  font-size: 18px;
-  color: #00AF62;
-}
-
-.somos .somos-definicion .somos-card .somos-card_text {
-  font-family: var(--title-fontfamily);
-  font-size: 14px;
-}
-
-.somos .somos-definicion .somos-card .somos-card_img {
-  position: absolute;
-  background-color: #00AF62;
-  padding: 15px;
-  border-radius: 50%;
-  top:-35px;
-  left: -33px;
-  margin-left: 50%;
-}
-
 .somos .btn-nosotros {
   text-decoration: none;
   border-color: #00AF62;
-  color:#00AF62;
+  color: #00AF62;
   font-family: var(--title-fontfamily);
   font-size: 16px;
-  font-weight: 700; 
+  font-weight: 700;
+}
+
+.somos .somos-descripcion {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
 
 .section-title {
@@ -183,18 +147,19 @@
   border-radius: 10px;
 }
 
-.home .tratamientos .t-cards .t-card .t-card-image{ 
+.home .tratamientos .t-cards .t-card .t-card-image {
   position: absolute;
   top: -200px;
   border-bottom-left-radius: 70% 25%;
   border-bottom-right-radius: 70% 25%;
 }
 
-.home .tratamientos .t-cards .t-card .t-card-text{ 
+.home .tratamientos .t-cards .t-card .t-card-text {
   position: absolute;
   width: 100%;
   color: white;
   font-weight: bold;
-  margin: 1.2rem; 
+  margin: 1.2rem;
   text-align: center;
+  line-height: 17px;
 }

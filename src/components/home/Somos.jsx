@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import check from "../../public/image/check.png";
 import heart from "../../public/image/heart.png";
-import { CardValores } from "./CardValores";
+import { CardValores } from "../partials/CardValores";
 
 const Somos = () => {
   return (
@@ -20,8 +20,8 @@ const Somos = () => {
           </p>
         </article>
       </section>
-      <section className="row somos-definicion">
-        <article className="offset-lg-1 col-lg-5 offset-md-2 col-md-4 offset-sm-2 col-sm-8 mb-5 offset-1 col-10">
+      <section className="row somos-definicion mb-4">
+        <article className="offset-lg-1 col-lg-5 offset-md-2 col-md-4 offset-sm-2 col-sm-8 offset-1 col-10  mb-5 mb-md-0">
           <CardValores
             title="Misión"
             description="Estamos comprometidos con la búsqueda constante de la excelencia
@@ -29,7 +29,7 @@ const Somos = () => {
             img={check}
           />
         </article>
-        <article className="offset-lg-0 col-lg-5 offset-md-0 col-md-4 offset-sm-2 col-sm-8 mb-3 offset-1 col-10">
+        <article className="offset-lg-0 col-lg-5 offset-md-0 col-md-4 offset-sm-2 col-sm-8 offset-1 col-10 mb-md-0">
           <CardValores
             title="Valores"
             description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y asistencia de calidad a los pacientes"

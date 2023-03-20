@@ -1,4 +1,4 @@
-import React from "react";
+import './CardValores.css'
 
 export const CardValores = ({ title, description, img }) => {
   return (

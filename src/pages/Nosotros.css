@@ -1,0 +1,14 @@
+.nosotros-description .title {
+    font-family: var(--third-fontfamily);
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.nosotros-description .text {
+    font-family: var(--title-fontfamily);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
