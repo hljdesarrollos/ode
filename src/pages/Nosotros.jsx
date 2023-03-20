@@ -9,7 +9,7 @@ import "./Nosotros.css";
 const Nosotros = () => {
   return (
     <section className="container mb-5">
-      <section>
+      <section className="container">
         <article className="offset-lg-0 col-lg-12 offset-md-1 col-md-10 offset-sm-0 col-sm-12 offset-1 col-10">
           <div id="carouselExampleIndicators" className="carousel slide">
             <div className="carousel-indicators">

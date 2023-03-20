@@ -83,12 +83,12 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <article className="menu-tratamientos" hidden={show}>
+      <article className="menu-tratamientos z-1" hidden={show}>
         <section className="row tratamientos-container">
           <article className="col-8">
             <p className="tipo-tratamiento">Salud Dental</p>
             <hr />
-            <div className="row">
+            <div className="row z-1">
               {salud.map((item) => (
                 <MenuItem
                   key={item.ref}
