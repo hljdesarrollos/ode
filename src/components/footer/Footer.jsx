@@ -4,40 +4,40 @@ const Footer = () => {
   return (
     <section className="footer container-fluid">
       <article className="row">
-        <div className="col-6">
+        <div className="col-12 col-lg-6 order-1 order-md-0">
           <p className="footer-title">Tratamientos</p>
           <hr />
           <div className="row">
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Implante dental</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Implante dental</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Implante dental</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Protesis</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Protesis</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Protesis</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Blanqueamiento</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Blanqueamiento</p>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-sm-4">
               <p className="footer-item">Blanqueamiento</p>
             </div>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-sm-4 col-lg-2 mb-4">
           <p className="footer-title">Seguinos</p>
           <hr />
           <div className="">
@@ -73,14 +73,14 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-sm-4 col-lg-2 mb-4">
           <p className="footer-title">Dirección</p>
           <hr />
           <p className="d-flex gap-1 align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
+              width="20"
+              height="20"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -95,11 +95,13 @@ const Footer = () => {
             <span>Dirección Tte. Gral. Juan Domingo Perón 1618</span>
           </p>
         </div>
-        <div className="col-2">
+        <div className="col-sm-4 col-lg-2 mb-4">
           <p className="footer-title">Solicitá turno</p>
           <hr />
           <p className="d-flex  gap-1 align-items-center">
-            <i className="fa-brands fa-whatsapp fa-xl"></i>
+            <i
+              className="fa-brands fa-whatsapp fa-xl"
+            ></i>
             <span>Solicitá tu turno</span>
           </p>
         </div>

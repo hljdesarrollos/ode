@@ -48,7 +48,7 @@ const Navbar = () => {
                   }}
                   className="navbar-link dropmenu"
                 >
-                  Tratamientos <i class="fa-solid fa-chevron-down"></i>
+                  Tratamientos <i className="fa-solid fa-chevron-down"></i>
                 </a>
               </li>
               <li className="navbar-item">
@@ -115,6 +115,7 @@ const Navbar = () => {
           </article>
         </section>
       </article>
+      
     </section>
   );
 };

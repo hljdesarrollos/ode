@@ -1,5 +1,3 @@
-import React from "react";
-
 const CardTratamientos = ({img, text}) => {
   return (
     <div className="col-md-3 offset-sm-0 col-sm-6 offset-1 col-10 mb-4">

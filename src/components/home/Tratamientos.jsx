@@ -1,4 +1,4 @@
-import kitten from '../../public/image/300.jpg'
+import kitten from '../../public/image/400.jpg'
 import CardTratamientos from './CardTratamientos'
 
 const Tratamientos = () => {
