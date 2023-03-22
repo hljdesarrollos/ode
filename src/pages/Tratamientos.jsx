@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import tratamientos from "../assets/tratamientos.json";
 import "./Tratamientos.css";
 
 function Tratamientos() {
@@ -16,7 +17,7 @@ function Tratamientos() {
   });
 
   const uniqueTratamientos = async () => {
-    let res = await fetch("./assets/tratamientos.json");
+    let res = await fetch("./src/assets/tratamientos.json");
     let temp = await res.json();
     let tratamientosTemp = [];
     await temp.forEach((t) => {
