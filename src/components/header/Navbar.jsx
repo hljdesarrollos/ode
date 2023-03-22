@@ -46,10 +46,20 @@ const Navbar = () => {
                   onClick={() => {
                     setShow(!show);
                   }}
-                  className="navbar-link dropmenu"
+                  className="navbar-link dropmenu d-none d-sm-inline"
                 >
                   Tratamientos <i className="fa-solid fa-chevron-down"></i>
                 </a>
+                <NavLink
+                  to={"/tratamientos"}
+                  className={({ isActive }) =>
+                    isActive
+                      ? "navbar-link navbar-link_active d-inline d-sm-none"
+                      : "navbar-link d-inline d-sm-none"
+                  }
+                >
+                  Tratamientos
+                </NavLink>
               </li>
               <li className="navbar-item">
                 <NavLink
@@ -115,7 +125,6 @@ const Navbar = () => {
           </article>
         </section>
       </article>
-      
     </section>
   );
 };

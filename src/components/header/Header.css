@@ -59,6 +59,13 @@
     background-color: #fff;
 }
 
+@media (max-width: 768px) {
+    .navigation .menu-tratamientos {
+        left: 0;
+        width: 100%;
+    }
+}
+
 .navigation .menu-tratamientos .tratamientos-container {
     padding: 2.5rem 7rem;
     color: var(--main-color)
