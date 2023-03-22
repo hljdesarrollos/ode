@@ -1,0 +1,81 @@
+.tratamientos-container .list {
+    list-style: none;
+    font-family: var(--title-fontfamily);
+}
+
+.tratamientos-container .list .tratamiento,
+.tratamientos-container .list .tratamiento-active {
+    border: 1px solid var(--main-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.tratamientos-container .list .tratamiento-active {
+    background-color: #228A5C;
+    font-weight: 700;
+}
+
+.tratamientos-container .list .link-item {
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.tratamientos-container .list .tratamiento-active .link-item {
+    color: #fff;
+}
+
+.card-tratamiento .card-tratamiento_header {
+    padding: 2rem;
+    border: 1px solid #eee;
+}
+
+.card-tratamiento .card-tratamiento_header .card-tratamiento_title {
+    font-family: var(--third-fontfamily);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color: var(--main-color);
+}
+
+.card-tratamiento .card-tratamiento_body {
+    padding: 2rem;
+}
+
+.card-tratamiento .card-tratamiento_body .card-tratamiento_subtitle {
+    font-family: var(--title-fontfamily);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color: var(--main-color);
+}
+
+.card-tratamiento .card-tratamiento_body .card-tratamiento_text{
+    font-size: 14px;
+    font-family: var(--title-fontfamily);
+    margin: 1.2rem 3.3rem;
+}
+
+.card-tratamiento .card-tratamiento_body .card-tratamiento_adventages {
+    margin: 1.2rem 2.5rem;
+    font-size: 14px;
+    font-family: var(--title-fontfamily);
+}
+/* ¿Qué es un implante dental?
+
+Ode Odontología es una institución con más de 6 años de antigüedad y tenemos como misión brindar la mejor calidad de atención, Somos un grupo humano de profesionales en constante formación dentro de un ambiente cálido y cordial. Tenemos aranceles accesibles en odontología general, estética, restauradora, cirugías, ortodoncia, endodoncia, prótesis e implantes dentales.
+
+Ventajas
+
+Ode Odontología es una institución con más de 
+6 años de antigüedad y tenemos como misión brindar la mejor 
+calidad de atención, Somos un grupo 
+humano de profesionales en constante formación
+ión dentro de un ambiente cálido y coxrdial. Tenemos aranceles accesibles en 
+
+Proceso
+
+Ode Odontología es una institución con más de 6 años de antigüedad y tenemos como misión brindar la mejor calidad de atención, Somos un grupo humano de profesionales en constante formación dentro de un ambiente cálido y coordial.  */
