@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import tratamientos from "../../public/tratamientos.json";
+import tratamientos from "../../../public/tratamientos.json";
 import MenuItem from "./MenuItem";
 
 const Navbar = () => {
