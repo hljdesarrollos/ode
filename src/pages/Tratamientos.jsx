@@ -17,7 +17,8 @@ function Tratamientos() {
   });
 
   const uniqueTratamientos = async () => {
-    let res = await fetch("../src/assets/tratamientos.json");
+    let url = "../src/assets/tratamientos.json"
+    let res = await fetch(url);
     let temp = await res.json();
     let tratamientosTemp = [];
     await temp.forEach((t) => {
