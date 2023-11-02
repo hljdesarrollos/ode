@@ -13,30 +13,25 @@
     position: relative;
     border: 1px solid #00AF62;
     border-radius: 10px;
-    padding: 3rem 3rem 0;
+    padding: 2.5rem 1rem 2rem;
     text-align: center;
     height: 100%;
 }
 
 .somos-definicion .somos-card .somos-card_title {
     font-family: var(--third-fontfamily);
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     font-size: 18px;
-    color: #00AF62;
+    color: black;
+    margin: 0;
 }
 
 .somos-definicion .somos-card .somos-card_text {
     font-family: var(--title-fontfamily);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .somos-definicion .somos-card .somos-card_img {
-    position: absolute;
-    background-color: #00AF62;
-    padding: 15px;
-    border-radius: 50%;
-    top: -35px;
-    left: -33px;
-    margin-left: 50%;
+    width: 24px;
 }

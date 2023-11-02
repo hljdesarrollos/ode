@@ -9,16 +9,25 @@
       var(--main-color),
       var(--second-color));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('./public/images/bg-portada.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .home .presentacion .presentacion-portada {
   padding: 4.6rem 10px;
 }
 
+.home .presentacion .presentacion-imagen {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+
 .home .presentacion .presentacion-portada .info_text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   flex: 1;
   padding: 1.2rem 0;
 }
@@ -33,8 +42,14 @@
   font-family: var(--secondary-fontfamily);
   font-weight: 700;
   color: #fff;
-  font-size: 50px;
-  margin-bottom: 3rem;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.home .presentacion .presentacion-subtitle {
+  font-family: var(--secondary-fontfamily);
+  color: #fff;
+  margin-bottom: 1.5rem;
 }
 
 .home .presentacion .btn-action {
@@ -42,13 +57,14 @@
   font-family: var(--title-fontfamily);
   font-weight: 600;
   color: #fff;
-  margin: 0 1rem 1.2rem;
+  margin: 0 0 1.2rem;
   width: 50%;
   padding: 10px 0;
+  width: 80%;
 }
 
 .home .presentacion .presentacion-info {
-  background-color: var(--main-color);
+  background-color: var(--second-color);
   font-family: var(--title-fontfamily);
   font-size: 14px;
   color: white;
@@ -83,7 +99,7 @@
 
   .home .presentacion .btn-action {
     font-size: .8rem;
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -109,11 +125,12 @@
     margin: 1rem 0;
   }
 }
-
+.somos {
+  margin-bottom: 2rem;
+}
 .somos .btn-nosotros {
   text-decoration: none;
-  border-color: #00AF62;
-  color: #00AF62;
+  color: var(--main-color);
   font-family: var(--title-fontfamily);
   font-size: 16px;
   font-weight: 700;
@@ -123,35 +140,49 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
+
 }
 
 .section-title {
   font-family: var(--third-fontfamily);
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
-  font-size: 22px;
+  font-size: 28px;
   color: var(--main-color);
   text-align: center;
   margin: 4rem 0 2rem;
+  line-height: 36.43px;
+}
+.home .tratamientos {
+  background-color: var(--third-color);
+  padding: 3rem 10rem;
+}
+
+.home .tratamientos .section-title {
+  font-size: 22px;
+  color: black;
+  line-height: 28.62px;
+  margin: 0 0 3rem;
 }
 
 .home .tratamientos .t-cards .t-card {
   position: relative;
   overflow: hidden;
-  height: 260px;
-  width: 260px;
+  min-height: 200px;
+  min-width: 200px;
   display: flex;
   align-items: flex-end;
-  background-color: #00AF62;
+  background-color: var(--main-color);
   justify-content: center;
   border-radius: 10px;
 }
 
 .home .tratamientos .t-cards .t-card .t-card-image {
   position: absolute;
-  top: -200px;
+  bottom: 60px;
   border-bottom-left-radius: 70% 25%;
   border-bottom-right-radius: 70% 25%;
+  
 }
 
 .home .tratamientos .t-cards .t-card .t-card-text {
@@ -159,7 +190,12 @@
   width: 100%;
   color: white;
   font-weight: bold;
-  margin: 1.2rem;
+  margin: 1.4rem;
   text-align: center;
   line-height: 17px;
+  font-size: 18px;
+}
+
+.home .testimonios {
+  padding: 2rem 0;
 }

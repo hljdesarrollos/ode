@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import check from "../../public/image/check.png";
-import heart from "../../public/image/heart.png";
+// import check from "../../public/image/check.png";
+// import heart from "../../public/image/heart.png";
 import { CardValores } from "../partials/CardValores";
 
 const Somos = () => {
@@ -8,37 +8,43 @@ const Somos = () => {
     <article className="somos container container-md-fluid">
       <h2 className="section-title">Hola, somos ODE</h2>
       <section className="row">
-        <article className="offset-lg-1 col-lg-10 offset-md-1 col-md-10 offset-sm-2 col-sm-8 offset-1 col-10">
+        <article className="offset-lg-2 col-lg-8 offset-md-2 col-md-8 offset-sm-2 col-sm-8 offset-1 col-10">
           <p className="somos-description">
-            Contamos con consultorios odontológicos en San Miguel en los que
-            hemos atendido a más de treinta mil pacientes. Adaptamos nuestros
+            Contamos con consultorios odontológicos en San Miguel en los que 
+            hemos atendido a <strong>más de treinta mil pacientes</strong>. Adaptamos nuestros 
             servicios a tus necesidades y te brindamos uno hecho a tu medida
-            ocupándonos de tu salud bucal de forma humana y personalizada desde
-            el primer momento en que te contactás con nosotros hasta el primer
-            momento en que te contactás con nosotros hasta después de haber
-            terminado el tratamiento.
+            ocupándonos de tu salud bucal de forma <strong>humana y personalizada</strong> desde
+            el primer momento en que te contactás con nosotros hasta después 
+            de haber terminado el tratamiento.
           </p>
         </article>
       </section>
-      <section className="row somos-definicion mb-4">
-        <article className="offset-lg-1 col-lg-5 offset-md-2 col-md-4 offset-sm-2 col-sm-8 offset-1 col-10  mb-5 mb-md-0">
+      <section className="row somos-definicion mb-4 container">
+        <article className="col-lg-4 col-md-4 col-sm-8 col-10  mb-5 mb-md-0">
           <CardValores
             title="Misión"
-            description="Estamos comprometidos con la búsqueda constante de la excelencia
-              en los servicios y asistencia de calidad"
-            img={check}
+            description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y calidad de asistencia odontológica."
+            img="./public/images/Frame 205.png"
           />
         </article>
-        <article className="offset-lg-0 col-lg-5 offset-md-0 col-md-4 offset-sm-2 col-sm-8 offset-1 col-10 mb-md-0">
+        <article className="col-lg-4 col-md-4 col-sm-8 col-10 mb-md-0">
           <CardValores
             title="Valores"
-            description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y asistencia de calidad a los pacientes"
-            img={heart}
+            description="Contamos con profesionales en formación
+            permanente, brindamos un trato cordial y aranceles accesibles."
+            img="./public/images/Frame 443.png"
+          />
+        </article>
+        <article className="col-lg-4 col-md-4 col-sm-8 col-10 mb-md-0">
+          <CardValores
+            title="Visión"
+            description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a aquello que caracteriza nuestro servicio."
+            img="./public/images/Frame 446.png"
           />
         </article>
       </section>
       <section className="text-center">
-        <Link to={'/nosotros'} className="btn btn-nosotros">
+        <Link to={"/nosotros"} className="btn btn-nosotros">
           Ver mas sobre nosotros
         </Link>
       </section>

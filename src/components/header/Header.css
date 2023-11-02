@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background: var(--main-color);
+    background: white;
+    position: relative;
 }
 
 .top-header .top-header_brand {
@@ -14,7 +15,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    color: white;
+    color: var(--main-color);
     font-family: var(--title-fontfamily);
     font-size: 16px;
     font-weight: 700;
@@ -29,7 +30,7 @@
 }
 
 .navbar-item .navbar-link {
-    color: var(--main-color);
+    color: black;
     text-decoration: none;
     font-family: var(--title-fontfamily);
     font-size: 14px;
@@ -47,8 +48,7 @@
 }
 
 .navigation {
-    position: relative;
-    margin-bottom: 2.5rem;
+    flex: 1;
 }
 
 .navigation .menu-tratamientos {
@@ -67,7 +67,7 @@
 }
 
 .navigation .menu-tratamientos .tratamientos-container {
-    padding: 2.5rem 7rem;
+    padding: 2.5rem 2rem;
     color: var(--main-color)
 }
 

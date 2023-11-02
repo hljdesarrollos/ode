@@ -13,15 +13,15 @@ function Testimonios() {
   let filtrado = filtradoValor.slice(0, 9);
 
   return (
-    <section id="testimonios">
-      <h3 className="text-center">Opiniones</h3>
+    <section className="testimonios">
+      <h3 className="text-center">Opiniones de nuestros pacientes</h3>
       <div
         id="carouselExampleIndicators"
         className="carousel slide carousel-dark"
         data-bs-ride="true"
         data-bs-interval="3000"
       >
-        <div className="carousel-inner">
+        <div className="carousel-inner container">
           <div className="carousel-item active">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
               {filtrado.slice(0, 3).map((dato) => (

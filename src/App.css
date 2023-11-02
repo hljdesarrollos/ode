@@ -34,8 +34,10 @@
 }
 
 :root {
-    --main-color: #00AF62;
+    --main-color: #078901;
+    --main-color-2: #00AF62;
     --second-color: #1A4DBC;
+    --third-color: #F6F1E6;
     --title-fontfamily: 'Montserrat', sans-serif;
     --secondary-fontfamily: 'Lora', serif;
     --third-fontfamily: 'FF Nort';
