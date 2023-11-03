@@ -14,7 +14,7 @@ function Testimonios() {
 
   return (
     <section className="testimonios">
-      <h3 className="text-center">Opiniones de nuestros pacientes</h3>
+      <h3 className="section-title">Opiniones de nuestros pacientes</h3>
       <div
         id="carouselExampleIndicators"
         className="carousel slide carousel-dark"

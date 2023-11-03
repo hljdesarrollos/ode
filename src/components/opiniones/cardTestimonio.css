@@ -17,3 +17,10 @@ a {
 .card .text-muted {
     font-size: 14px;
 }
+
+.card .card-text-name{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: var(--title-fontfamily);
+    color:black;
+}

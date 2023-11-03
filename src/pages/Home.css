@@ -158,7 +158,8 @@
   padding: 3rem 10rem;
 }
 
-.home .tratamientos .section-title {
+.home .tratamientos .section-title,
+.home .testimonios .section-title {
   font-size: 22px;
   color: black;
   line-height: 28.62px;
