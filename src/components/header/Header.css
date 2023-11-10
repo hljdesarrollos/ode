@@ -3,13 +3,20 @@
     justify-content: space-between;
     padding: 10px 30px;
     background: white;
-    position: relative;
 }
 
 .top-header .top-header_brand {
     width: 4rem;
     height: 4rem;
 }
+
+@media (max-width: 769px) {
+    .top-header svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
 
 .top-header .top-header_turno {
     display: flex;
@@ -19,6 +26,19 @@
     font-family: var(--title-fontfamily);
     font-size: 16px;
     font-weight: 700;
+}
+
+@media (max-width: 769px) {
+    .top-header .top-header_turno {
+        display: none;
+    }
+    .navbar {
+        padding: 0 !important;
+     }
+    .navbar-toggler {
+        border: none;
+        color: var(--main-color) !important;
+    }
 }
 
 .top-header .top-header_turno p {
@@ -53,26 +73,29 @@
 
 .navigation .menu-tratamientos {
     position: absolute;
-    left: 10%;
-    width: 80%;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
     font-family: var(--title-fontfamily);
     background-color: #fff;
-}
 
-@media (max-width: 768px) {
-    .navigation .menu-tratamientos {
-        left: 0;
-        width: 100%;
-    }
 }
 
 .navigation .menu-tratamientos .tratamientos-container {
-    padding: 2.5rem 2rem;
-    color: var(--main-color)
+    height: 100%;
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation .menu-tratamientos .tratamientos-container .tipo-tratamiento {
-    font-size: 16px;
+    font-family: var(--title-fontfamily);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: black;
 }
 
 .navigation .menu-tratamientos .tratamientos-container .tratamiento {
@@ -82,5 +105,10 @@
 
 .navigation .menu-tratamientos .tratamientos-container .tratamiento .tratamiento-link {
     text-decoration: none;
-    color: var(--main-color)
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: black;
 }

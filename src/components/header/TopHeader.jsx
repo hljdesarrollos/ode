@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import tratamientos from "../../../public/tratamientos.json";
 import MenuItem from "./MenuItem";
 
-const TopHeader = () => {
-  const [show, setShow] = useState(true);
+const TopHeader = ({show, setShow}) => {
   const { salud, estetica } = tratamientos[0];
   return (
     <div className="top-header">
@@ -126,11 +124,11 @@ const TopHeader = () => {
           </div>
         </nav>
         <article className="menu-tratamientos z-1" hidden={show}>
-          <section className="row tratamientos-container">
+          <section className="tratamientos-container">
             <article className="col-8">
               <p className="tipo-tratamiento">Salud Dental</p>
               <hr />
-              <div className="row z-1">
+              <div className="row">
                 {salud.map((item) => (
                   <MenuItem
                     key={item.ref}
@@ -141,7 +139,7 @@ const TopHeader = () => {
                 ))}
               </div>
             </article>
-            <article className="col-4">
+            <article className="col-8">
               <p className="tipo-tratamiento">Estética Dental</p>
               <hr />
               <div className="row">

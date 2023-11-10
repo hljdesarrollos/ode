@@ -4,15 +4,20 @@ const Portada = () => {
   return (
     <article className="presentacion container-fluid">
       <div className="row presentacion-portada">
-        <div className="col-7 d-lg-flex justify-content-center">
-          <img src="./public/images/portada.png" alt="portada" className="presentacion-imagen"/>
+        <div className="col-lg-7 col-md-7 d-lg-flex justify-content-center">
+          <img
+            src="./public/images/portada.png"
+            alt="portada"
+            className="presentacion-imagen"
+          />
         </div>
         <div className="col-lg-4 col-md-6 col-12 info d-flex">
           <div className="info_text">
-            <h1 className="presentacion-title mb-0">Sonriamos</h1>
-            <h1 className="presentacion-title">juntos</h1>
-            <p className="presentacion-subtitle">ODE, Consultorios odontológicos</p>
-            <div>
+            <h1 className="presentacion-title">Sonriamos juntos</h1>
+            <p className="presentacion-subtitle">
+              ODE, Consultorios odontológicos
+            </p>
+            <div className="btn-actions">
               <a className="btn btn-action">Solicitá tu turno por Whatsapp</a>
               <a className="btn btn-action">Contactános por telefono</a>
             </div>
@@ -37,7 +42,7 @@ const Portada = () => {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
-            Dirección Tte. Gral. Juan Domingo Perón 1618
+            Dirección. Av. Pte Perón 2007, San Miguel.
           </p>
         </div>
         <div className="col-12 col-sm-12 col-md-4 text-center">

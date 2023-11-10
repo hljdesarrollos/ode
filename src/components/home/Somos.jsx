@@ -19,15 +19,15 @@ const Somos = () => {
           </p>
         </article>
       </section>
-      <section className="row somos-definicion mb-4 container">
-        <article className="col-lg-4 col-md-4 col-sm-8 col-10  mb-5 mb-md-0">
+      <section className="row somos-definicion mb-4 container-md container-fluid">
+        <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Misión"
             description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y calidad de asistencia odontológica."
             img="./public/images/Frame 205.png"
           />
         </article>
-        <article className="col-lg-4 col-md-4 col-sm-8 col-10 mb-md-0">
+        <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Valores"
             description="Contamos con profesionales en formación
@@ -35,7 +35,7 @@ const Somos = () => {
             img="./public/images/Frame 443.png"
           />
         </article>
-        <article className="col-lg-4 col-md-4 col-sm-8 col-10 mb-md-0">
+        <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Visión"
             description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a aquello que caracteriza nuestro servicio."
@@ -44,7 +44,7 @@ const Somos = () => {
         </article>
       </section>
       <section className="text-center">
-        <Link to={"/nosotros"} className="btn btn-nosotros">
+        <Link to={"/nosotros"} className="btn btn-nosotros mt-3 mb-3">
           Ver mas sobre nosotros
         </Link>
       </section>

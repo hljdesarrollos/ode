@@ -4,12 +4,12 @@ import Tratamientos from "../components/home/Tratamientos";
 import Testimonios from "../components/opiniones/testimonios";
 import "./Home.css";
 
-const Home = () => {
+const Home = ({show, setShow}) => {
   return (
     <section className="home">
       <Portada />
       <Somos />
-      <Tratamientos />
+      <Tratamientos show={show} setShow={setShow} />
       <Testimonios />
     </section>
   );
