@@ -13,3 +13,15 @@
 .footer .footer-social{
     margin-right: 1rem;
 }
+
+
+@media (max-width: 769px) {
+    .footer-tratamientos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-tratamientos .fa-solid .rotate{
+        transform: rotate(180deg);
+    }  
+}

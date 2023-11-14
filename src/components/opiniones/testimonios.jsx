@@ -17,27 +17,28 @@ function Testimonios() {
       <h3 className="section-title">Opiniones de nuestros pacientes</h3>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide carousel-dark"
+        className="carousel slide carousel-dark d-none d-sm-block"
         data-bs-ride="true"
         data-bs-interval="3000"
+        
       >
         <div className="carousel-inner container">
           <div className="carousel-item active">
-            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(0, 3).map((dato) => (
                 <CardTestimonio dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
-            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(3, 6).map((dato) => (
                 <CardTestimonio dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
-            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(6, 9).map((dato) => (
                 <CardTestimonio dato={dato} />
               ))}
@@ -60,6 +61,103 @@ function Testimonios() {
           className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div
+        id="carouselExampleIndicatorsSM"
+        className="carousel slide carousel-dark d-block d-sm-none"
+        data-bs-ride="true"
+        data-bs-interval="1000"
+        
+      >
+        <div className="carousel-inner container">
+          <div className="carousel-item active">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(0, 1).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(1, 2).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(2, 3).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(3, 4).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(4, 5).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(5, 6).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(6, 7).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(7, 8).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+              {filtrado.slice(8, 9).map((dato) => (
+                <CardTestimonio dato={dato} />
+              ))}
+            </div>
+          </div>
+        </div>
+        <button
+          className="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicatorsSM"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicatorsSM"
           data-bs-slide="next"
         >
           <span
