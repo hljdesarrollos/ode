@@ -125,7 +125,7 @@ function Tratamientos() {
                       <div className="accordion-body">
                         <p>{tratamiento.texto_acordeon}</p>
                         <img
-                          src={tratamiento?.image}
+                          src={tratamiento?.imagen_acordeon}
                           alt={tratamiento?.ref}
                           className="w-60"
                         />

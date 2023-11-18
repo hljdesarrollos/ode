@@ -55,7 +55,7 @@
         "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
         "titulo_acordeon": "Recontrucción con poste de fibra",
         "texto_acordeon": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
-        "imagen_acordeon": ""
+        "imagen_acordeon": "../../public/images/endodoncia.png"
       },
       {
         "ref": "blanqueamientos",
@@ -129,7 +129,10 @@
           "Evita la extracción.",
           "Conserva la pieza original."
         ],
-        "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia."
+        "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
+        "titulo_acordeon": "Recontrucción con poste de fibra",
+        "texto_acordeon": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
+        "imagen_acordeon": "../../public/images/endodoncia.png"
       },
       {
         "ref": "protesis_implantosoportadas",
