@@ -4,184 +4,156 @@
       {
         "ref": "implantes_dentales",
         "name": "Implantes dentales",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "implantes_dentales Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "image": "../../public/images/implantes_dentales.png",
+        "information": "El implante dental es un método muy frecuente para reemplazar piezas ausentes o en mal estado, mediante una intervención quirúrgica sencilla e indolora.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Puede utilizarse como anclaje de prótesis removibles.",
+          "Evita desgaste de piezas contiguas a las dañadas para la confección de puentes, ya que reemplazan en forma individual.",
+          "Dan apariencia natural emergando desde la encía.",
+          "Los implantes son de titanio, controlados y aprobados por el ANMAT."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Es una intervención, que por lo general, se realiza en media hora y se espera la osteointegración, que es el tiempo que tarda en aceptarlo el organismo, una vez cumplido se realiza la colocación de la corona. "
       },
       {
         "ref": "protesis_dental",
         "name": "Prótesis dental",
-        "image": "http://placekitten.com/777/491",
-        "information": "protesis_dental Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "image": "../../public/images/protesis_dentales.png",
+        "information": "Es un elemento utilizado para reemplazar piezas naturales ausentes por artificiales. Puede ser fija o removible.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Permite la correcta masticación. Son semejantes a los dientes naturales.",
+          "Generan una estética dental adecuada.",
+          "Hay distintas opciones de materiales y precios."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar. En diferentes sesiones realiza registros y pruebas que envía al laboratorio dental para la confección de las mismas, una vez instaladas suelen requerir algún control para asegurar su correcto funcionamiento.",
+        "titulo_acordeon": "Prótesis Implantosoportadas",
+        "texto_acordeon": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar.",
+        "imagen_acordeon": "../../public/images/protesis_dentales.png"
       },
       {
         "ref": "ortodoncia",
         "name": "Ortodóncia",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "ortodoncia Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "image": "../../public/images/ortodoncia.png",
+        "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Alinear y nivela los dientes.",
+          "Corrige la mordida.",
+          "Disminución de desgaste dental por oclusión incorrecta."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "El paciente es citado con ciertos estudios previos y se instalan brackets, ya sea metálicos o estéticos. Son tratamientos largos en los cuales deberá concurrir mensualmente para que el ortodoncista realice los ajustes pertinentes."
       },
       {
         "ref": "endodoncia",
         "name": "Endodóncia",
-        "image": "http://placekitten.com/777/491",
-        "information": "endodoncia Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "image": "../../public/images/endodoncia.png",
+        "information": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Evita dolor en dientes en que la carie llega al nervio.",
+          "Alarga la vida útil del diente.",
+          "Evita la extracción.",
+          "Conserva la pieza original."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
+        "titulo_acordeon": "Recontrucción con poste de fibra",
+        "texto_acordeon": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
+        "imagen_acordeon": ""
       },
       {
         "ref": "blanqueamientos",
-        "name": "Blanqueamientos",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "blanqueamientos Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "name": "Blanqueamientos dental",
+        "image": "../../public/images/blanqueamiento_dental.png",
+        "information": "Es un aclaramiento de color de los dientes con fines estéticos.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Mejora el aspecto de los dientes, resalta la sonrisa.",
+          "Realiza el profesional capacitado utilizando procedimientos y materiales confiables y aprobados.",
+          "Puede realizarse hasta en una sesión."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Este procedimiento es indoloro, no requiere de anestesia. Se aplica un producto sobre los dientes y un protector de gingiva sobre las encías para evitar irritación, luego con un led se activa el producto que hará efecto a la brevedad aclarando el diente, en el caso de sensibilidad se aplican productos para contrarrestar dicho efecto."
       },
       {
         "ref": "implantes_dentales2",
-        "name": "Implantes dentales",
-        "image": "http://placekitten.com/777/491",
-        "information": "implantes_dentales2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "name": "Prevención y diagnóstico",
+        "image": "../../public/images/prevencion_y_diagnostico.png",
+        "information": "Es una consulta en la cual el odontólogo evalúa el estado bucal del paciente y considera si debe realizarse algún tratamiento y de qué tipo. Puede requerir estudios previos (radiografías, tomografías, etc).",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Permite detección temprana de caries y de enfermedades.",
+          "Asesoramiento y consejo profesional para el cuidado tanto en niños como adultos."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Una consulta de este tipo dura aproximadamente 15 minutos y es aconsejable realizarla semestralmente. "
       },
       {
-        "ref": "protesis_dental2",
-        "name": "Prótesis dental",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "protesis_dental2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "ref": "carillas_dentales",
+        "name": "Carillas dentales",
+        "image": "../../public/images/carillas_dentales.png",
+        "information": "Se realizan con el fin de mejorar la estética de dientes, logrando mejorar la sonrisa.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Evita el tallado del diente natural.",
+          "Es indoloro, no requiere uso de anestesia.",
+          "Cierra espacios interdentales y permite dar forma y tono deseado al diente natural."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Luego de una exhaustiva limpieza de la superficie dental, se aplican resinas compuestas fotopolimerizables del tono acordado con el paciente y utilizando matrices preformadas para moldearlas. Luego se pule con pasta de diamante."
       },
       {
         "ref": "ortodoncia2",
-        "name": "Ortodóncia",
-        "image": "http://placekitten.com/777/491",
-        "information": "ortodoncia2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "name": "Limpieza de sarro",
+        "image": "../../public/images/limpieza_de_sarro.png",
+        "information": "oEs un procedimiento mediante el cual se retira la placa bacteriana o tartaro que se ha formado sobre los dientes, muchas veces produciendo cálculos.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Evita futuras caries.",
+          "Proporciona bienestar en las encías.",
+          "Mejora la apariencia de la dentadura."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Es una intervención no dolorosa en la que se utiliza un cavitador de ultrasonido, entre otros elementos. Dura aproximadamente media hora, puede requerir más de una sesión."
       },
       {
         "ref": "endodoncia2",
-        "name": "Endodóncia",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "endodoncia2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "name": "Arreglo de caries",
+        "image": "../../public/images/arreglo_de_caries.png",
+        "information": "Es un proceso indoloro generalmente rápido en el cual se cura y se reconstruye el diente permitiendo realizar una o varias en la misma sesión.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Asegura la sanidad del diente.",
+          "Evita pérdidas prematuras de piezas dentales.",
+          "Mejora la apariencia del diente."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Es un proceso generalmente rápido en el cual repara el diente dañado y se reconstruye, permite realizar si es necesario en varias sesiones o en la misma."
       }
     ],
     "estetica": [
       {
         "ref": "protesis_dental3",
-        "name": "Prótesis dental",
-        "image": "http://placekitten.com/777/491",
-        "information": "protesis_dental3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "name": "Endodoncia",
+        "image": "../../public/images/endodoncia.png",
+        "information": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Evita dolor en dientes en que la carie llega al nervio.",
+          "Alarga la vida útil del diente.",
+          "Evita la extracción.",
+          "Conserva la pieza original."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia."
+      },
+      {
+        "ref": "protesis_implantosoportadas",
+        "name": "Cirugía maxilofacial",
+        "image": "../../public/images/cirugia_maxilofacial.png",
+        "information": "Son cirugías que realiza un cirujano maxilofacial, las cuales necesitan de cierta especialización, por lo que el odontólogo general deriva al paciente con su colega.",
+        "adventages": [
+          "Diagnósticos precisos.",
+          "Intervención adecuada al caso.",
+          "Minimiza los tiempos de recuperación."
+        ],
+        "process": "El cirujano interviene al paciente en casos de complejidad (extracción de dientes retenidos, dientes incluidos en estructura ósea, presencia de quistes, muestras para biopsia, relleno óseo para la colocación de implantes, etc). Son cirugías programadas en las cuales suele participar el profesional y asistente. Su duración varía según el caso."
       },
       {
         "ref": "ortodoncia3",
         "name": "Ortodóncia",
-        "image": "http://placekitten.com/g/777/491",
-        "information": "ortodoncia3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
+        "image": "../../public/images/ortodoncia.png",
+        "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
         "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
+          "Alinear y nivela los dientes.",
+          "Corrige la mordida.",
+          "Disminución de desgaste dental por oclusión incorrecta."
         ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
-      },
-      {
-        "ref": "endodoncia3",
-        "name": "Endodóncia",
-        "image": "http://placekitten.com/777/491",
-        "information": "endodoncia3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste sapiente modi voluptatibus ipsa quibusdam non cum inventore excepturi quaerat in optio tempora odit dicta consectetur quidem animi maiores neque. Enim illum mollitia minima sint commodi perspiciatis, perferendis quibusdam facere nihil. Debitis dolorem labore maxime reiciendis autem alias beatae placeat consectetur?",
-        "adventages": [
-          "Ventaja 1",
-          "Ventaja 2",
-          "Ventaja 3",
-          "Ventaja 4",
-          "Ventaja 5",
-          "Ventaja 6"
-        ],
-        "process": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur id molestiae fugit libero maiores ex, facilis repudiandae eius vel dignissimos beatae facere numquam ipsam accusamus aliquam inventore exercitationem. Omnis minus eum nesciunt quos temporibus! Quidem quasi odit est officiis debitis ducimus sequi sunt, inventore, doloribus, at dolore provident id. Recusandae unde officia ipsum vitae, similique quia necessitatibus iste."
+        "process": "El paciente es citado con ciertos estudios previos y se instalan brackets, ya sea metálicos o estéticos. Son tratamientos largos en los cuales deberá concurrir mensualmente para que el ortodoncista realice los ajustes pertinentes."
       }
     ]
   }
