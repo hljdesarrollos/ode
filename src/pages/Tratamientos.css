@@ -1,4 +1,4 @@
-.tratamientos-container .list {
+/* .tratamientos-container .list {
     list-style: none;
     font-family: var(--title-fontfamily);
 }
@@ -63,7 +63,205 @@
     margin: 1.2rem 2.5rem;
     font-size: 14px;
     font-family: var(--title-fontfamily);
+} */
+
+
+/* estilos que agregue */
+
+.tratamientos-fondo-bicolor {
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(to right, white 60%, #F6F1E6 40%);
 }
+
+.titulo {
+    padding: 0, 12px;
+}
+
+.msvg {
+    margin-left: 52px;
+    width: 28px;
+    height: 28px;
+}
+
+.title-row {
+    width: 100%;
+    text-align: left;
+    font-family: var(--third-fontfamily);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color: var(--main-color);
+}
+
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-column {
+    flex: 1;
+    align-self: flex-start;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-tratamiento_body .card-tratamiento_subtitle {
+    font-family: var(--third-fontfamily);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+
+.card-tratamiento_body .card-tratamiento_adventages {
+    margin: 1.2rem 2.5rem;
+    font-size: 14px;
+    font-family: var(--title-fontfamily);
+}
+
+.card-tratamiento_body .card-tratamiento_text {
+    font-size: 14px;
+    font-family: var(--title-fontfamily);
+    margin: 1.2rem 0 1.2rem 3.3rem;
+}
+
+.card-tratamiento_header {
+    padding: 2rem;
+    border: 1px solid #eee;
+}
+
+.card-tratamiento_body {
+    padding: 2rem;
+}
+
+.card-tratamiento_header .card-tratamiento_title {
+    font-family: var(--third-fontfamily);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    color: var(--main-color);
+}
+
+
+.accordion {
+    margin-top: 20px;
+    border: none;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: none;
+    font-family: var(--title-fontfamily);
+    font-size: 14px;
+}
+
+.accordion-button {
+    background-color: #F4FBEC;
+    color: var(--main-color);
+    font-family: var(--third-fontfamily);
+    font-size: 16px;
+    font-weight: 700;
+    border: none; 
+    outline: none !important; 
+    padding-left: 50px;
+    height: 30px;
+}
+
+.accordion-button:hover {
+    background-color: #F4FBEC;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #F4FBEC; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #F4FBEC;
+    color: green; 
+    outline: none; 
+    border-top: 1px solid var(--main-color); 
+}
+
+.accordion-body {
+    padding: 10px;
+}
+
+.accordion-body p {
+    padding-left: 20px; 
+    width: 90%; 
+    margin: 0 auto; 
+    padding-bottom: 20px;
+}
+
+.accordion-body img {
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    width: 60%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+    .column-container {
+        flex-direction: column;
+    }
+
+    .tratamientos-fondo-bicolor {
+        background: linear-gradient(to bottom, white 50px, #F6F1E6 50px, #F6F1E6 300px, white 300px);
+    }
+
+    .msvg {
+        margin-left: 5px;
+    }
+
+    .card-tratamiento_header {
+        padding: .5rem;
+    }
+
+    .card-tratamiento_body {
+        padding: .5rem;
+    }
+
+    .image-column {
+        order: -1;
+        padding: 0px;
+        padding: 20px 0;
+    }
+
+    .text-column {
+        flex: 1;
+        padding: 0px;
+    }
+
+    .mobil {
+        background-color: white;
+        padding-bottom: 20px;
+    }
+}
+
 /* ¿Qué es un implante dental?
 
 Ode Odontología es una institución con más de 6 años de antigüedad y tenemos como misión brindar la mejor calidad de atención, Somos un grupo humano de profesionales en constante formación dentro de un ambiente cálido y cordial. Tenemos aranceles accesibles en odontología general, estética, restauradora, cirugías, ortodoncia, endodoncia, prótesis e implantes dentales.
