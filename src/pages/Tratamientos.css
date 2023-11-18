@@ -207,18 +207,18 @@
 }
 
 .accordion-body p {
-    padding-left: 20px; /* Ajusta el padding del párrafo */
-    width: 90%; /* Ajusta el ancho del párrafo */
-    margin: 0 auto; /* Centra el párrafo */
+    padding-left: 20px; 
+    width: 90%; 
+    margin: 0 auto; 
     padding-bottom: 20px;
 }
 
 .accordion-body img {
     border: 1px solid var(--main-color);
     border-radius: 10px;
-    width: 60%; /* Ajusta el ancho de la imagen */
-    display: block; /* Para centrar la imagen en el contenedor */
-    margin: 0 auto; /* Centra la imagen */
+    width: 60%; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 
