@@ -197,10 +197,17 @@
 
 .accordion-button:not(.collapsed) {
     background-color: #F4FBEC;
-    color: green; 
+    color:var(--main-color); 
     outline: none; 
     border-top: 1px solid var(--main-color); 
 }
+
+.accordion-button::before {
+
+    margin-right: 10px; 
+    color: var(--main-color); 
+}
+
 
 .accordion-body {
     padding: 10px;
@@ -230,7 +237,7 @@
     }
 
     .tratamientos-fondo-bicolor {
-        background: linear-gradient(to bottom, white 50px, #F6F1E6 50px, #F6F1E6 300px, white 300px);
+        background: linear-gradient(to bottom, white 50px, #F6F1E6 50px, #F6F1E6 250px, white 250px);
     }
 
     .msvg {
@@ -261,19 +268,3 @@
         padding-bottom: 20px;
     }
 }
-
-/* ¿Qué es un implante dental?
-
-Ode Odontología es una institución con más de 6 años de antigüedad y tenemos como misión brindar la mejor calidad de atención, Somos un grupo humano de profesionales en constante formación dentro de un ambiente cálido y cordial. Tenemos aranceles accesibles en odontología general, estética, restauradora, cirugías, ortodoncia, endodoncia, prótesis e implantes dentales.
-
-Ventajas
-
-Ode Odontología es una institución con más de 
-6 años de antigüedad y tenemos como misión brindar la mejor 
-calidad de atención, Somos un grupo 
-humano de profesionales en constante formación
-ión dentro de un ambiente cálido y coxrdial. Tenemos aranceles accesibles en 
-
-Proceso
-
-Ode Odontología es una institución con más de 6 años de antigüedad y tenemos como misión brindar la mejor calidad de atención, Somos un grupo humano de profesionales en constante formación dentro de un ambiente cálido y coordial.  */
