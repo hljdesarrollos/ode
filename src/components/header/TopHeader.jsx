@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
 import tratamientos from "../../../public/tratamientos.json";
 import MenuItem from "./MenuItem";
+import { useRef, useState } from "react";
 
 const TopHeader = ({ show, setShow }) => {
   const { salud, estetica } = tratamientos[0];
+  const [showMenu, setShowMenu] = useState(true);
+  const toggler = useRef(null);
   return (
     <>
       <div className="top-header d-none d-sm-flex">
@@ -195,95 +198,46 @@ const TopHeader = ({ show, setShow }) => {
               <button
                 className="navbar-toggler ms-auto"
                 type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
+                // data-bs-toggle="collapse"
+                // data-bs-target="#navbarSupportedContent"
+                // aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                onClick={() => {
+                  setShow(true);
+                  setShowMenu(!showMenu);
+                }}
               >
                 <span className="navbar-toggler-icon" />
               </button>
-              <div
-                className="collapse navbar-collapse ms-auto  w-100"
-                id="navbarSupportedContent"
-              >
-                <ul className="navbar-nav text-start me-auto mb-2 mb-lg-0">
-                  <li className="navbar-item">
-                    <NavLink
-                      onClick={() => {
-                        setShow(true);
-                      }}
-                      className="navbar-link d-inline d-sm-none"
-                      aria-current="page"
-                      to={"/"}
-                    >
-                      Inicio
-                    </NavLink>
-                  </li>
-                  <li className="navbar-item">
-                    <a
-                      onClick={() => {
-                        setShow(!show);
-                      }}
-                      className="navbar-link dropmenu d-none d-sm-inline"
-                    >
-                      Tratamientos <i className="fa-solid fa-chevron-down"></i>
-                    </a>
-                    <NavLink
-                      to={"/tratamientos"}
-                      className="navbar-link d-inline d-sm-none"
-                    >
-                      Tratamientos
-                    </NavLink>
-                  </li>
-                  <li className="navbar-item">
-                    <NavLink
-                      onClick={() => {
-                        setShow(true);
-                      }}
-                      className="navbar-link d-inline d-sm-none"
-                      aria-current="page"
-                      to={"/nosotros"}
-                    >
-                      Nosotros
-                    </NavLink>
-                  </li>
-                  <li className="navbar-item">
-                    <NavLink
-                      onClick={() => {
-                        setShow(true);
-                      }}
-                      className="navbar-link d-inline d-sm-none"
-                      aria-current="page"
-                      to={"/contacto"}
-                    >
-                      Contacto
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
             </div>
           </nav>
           <article className="menu-tratamientos-sm" hidden={show}>
             <section className="tratamientos-container">
-              <article className="col-8">
-                <p className="tipo-tratamiento">Salud Dental</p>
-                <hr />
+              <article className="col-12">
+                  <ul className="navbar-nav text-start mb-3">
+                    <li className="navbar-item mb-1">
+                      <a
+                        onClick={() => {
+                          setShow(true);
+                          setShowMenu(false);
+                        }}
+                        className="navbar-link dropmenu d-flex gap-3 align-items-center"
+                      >
+                        <i className="fa-solid fa-chevron-left"></i> Tratamientos 
+                      </a>
+                    </li>
+                    <hr className="divider mt-2" />
+                  </ul>
                 <div className="row">
                   {salud.map((item) => (
                     <MenuItem
                       key={item.ref}
                       item={item}
-                      columns="col-4"
+                      columns="col-12"
                       show={{ show, setShow }}
                     />
                   ))}
-                </div>
-              </article>
-              <article className="col-8">
-                <p className="tipo-tratamiento">Estética Dental</p>
-                <hr />
-                <div className="row">
                   {estetica.map((item) => (
                     <MenuItem
                       key={item.ref}
@@ -293,6 +247,7 @@ const TopHeader = ({ show, setShow }) => {
                     />
                   ))}
                 </div>
+
               </article>
             </section>
           </article>
@@ -301,6 +256,67 @@ const TopHeader = ({ show, setShow }) => {
           <i className="fa-brands fa-whatsapp fa-xl"></i>
           <p>Solicitá tu turno</p>
         </div>
+      </div>
+      <div
+        className="navbar-collapse-sm ms-auto w-100"
+        id="navbarSupportedContent"
+        hidden={showMenu}
+      >
+        <ul className="navbar-nav text-start me-auto mb-2 mb-lg-0">
+          <li className="navbar-item mb-0">
+            <NavLink
+              onClick={() => {
+                setShow(true);
+                setShowMenu(true);
+              }}
+              className="navbar-link d-inline d-sm-none"
+              aria-current="page"
+              to={"/"}
+            >
+              Inicio
+            </NavLink>
+          </li>
+          <hr className="divider mt-2" />
+          <li className="navbar-item mb-4">
+            <a
+              onClick={() => {
+                setShow(false);
+                setShowMenu(true);
+              }}
+              className="navbar-link dropmenu d-flex justify-content-between align-items-center"
+            >
+              Tratamientos <i className="fa-solid fa-chevron-right"></i>
+            </a>
+          </li>
+          <li className="navbar-item mb-0">
+            <NavLink
+              onClick={() => {
+                setShow(true);
+                setShowMenu(true);
+              }}
+              className="navbar-link d-inline d-sm-none"
+              aria-current="page"
+              to={"/nosotros"}
+            >
+              Nosotros
+            </NavLink>
+          </li>
+          <hr className="divider mt-2" />
+          <li className="navbar-item mb-0">
+            <NavLink
+              onClick={() => {
+                setShow(true);
+                setShowMenu(true);
+              }}
+              className="navbar-link d-inline d-sm-none"
+              aria-current="page"
+              to={"/contacto"}
+            >
+              Contacto
+            </NavLink>
+          </li>
+          <hr className="divider mt-2" />
+        </ul>
       </div>
     </>
   );

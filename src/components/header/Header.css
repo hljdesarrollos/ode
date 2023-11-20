@@ -78,7 +78,7 @@
     height: calc(100vh - 70px);
     font-family: var(--title-fontfamily);
     background-color: #fff;
-
+    z-index: 1;
 }
 
 .navigation .menu-tratamientos .tratamientos-container {
@@ -113,29 +113,60 @@
     color: black;
 }
 
+.top-header-sm {
+    border-bottom: 1px solid #228A5C;
+}
+
 .navigation-sm {
     width: 100%;
 }
-.navigation-sm .navbar-collapse {
-    position: relative !important;
-    left: -70px !important;
-    height: calc(100vh - 70px) !important;
-    padding: 1rem 0;
+.navbar-collapse-sm {
+    position: absolute !important;
+    height: calc(100vh) !important;
+    padding: 2rem 1.5rem;
+    text-align: start !important;
+    background-color: #fff;
 }
 .navigation-sm .menu-tratamientos-sm {
     position: absolute;
     left: 0;
+    top: 59px;
     width: 100%;
     height: calc(100vh - 70px);
     font-family: var(--title-fontfamily);
     background-color: #fff;
+    padding: 2rem;
 }
 
-.navigation-sm .navbar-collapse .navbar-nav .navbar-link{
+.navbar-collapse-sm  .navbar-nav .navbar-link{
     font-size: 1.5rem;
     color: #666;    
 }
 
-.navigation-sm .navbar-collapse .navbar-nav .navbar-item{
+.navbar-collapse-sm  .navbar-nav .navbar-item{
     margin-bottom: 1.5rem;
+    padding: 0;
+}
+
+.navbar-collapse-sm .divider {
+    border: 1px solid var(--main-color);
+}
+
+.navigation-sm .menu-tratamientos-sm .navbar-link{
+    font-size: 1.5rem;
+    color: #666;    
+}
+.navigation-sm .menu-tratamientos-sm .navbar-item{
+    padding: 0;
+    color: #666;    
+}
+
+.menu-tratamientos-sm .divider {
+    border: 1px solid var(--main-color);
+}
+
+.menu-tratamientos-sm .tratamiento-link {
+    color: #666;    
+    font-weight: 600;
+    padding: 0 1rem;
 }
