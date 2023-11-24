@@ -26,8 +26,8 @@
         ],
         "process": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar. En diferentes sesiones realiza registros y pruebas que envía al laboratorio dental para la confección de las mismas, una vez instaladas suelen requerir algún control para asegurar su correcto funcionamiento.",
         "titulo_acordeon": "Prótesis Implantosoportadas",
-        "texto_acordeon": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar.",
-        "imagen_acordeon": "../../public/images/protesis_dentales.png"
+        "texto_acordeon": "Son prótesis que se fijan en implantes en lugar de usar los dientes naturales, con esta técnica puede recuperarse una o la totalidad de las piezas dentales.",
+        "imagen_acordeon": "../../public/images/protesis_dental_acordeon.png"
       },
       {
         "ref": "ortodoncia",
@@ -54,8 +54,8 @@
         ],
         "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
         "titulo_acordeon": "Recontrucción con poste de fibra",
-        "texto_acordeon": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
-        "imagen_acordeon": "../../public/images/endodoncia.png"
+        "texto_acordeon": "Este procedimiento se utiliza para rehabilitar un diente endodonciado en forma rápida y eficaz.",
+        "imagen_acordeon": "../../public/images/endodoncia_acordeon.png"
       },
       {
         "ref": "blanqueamientos",
