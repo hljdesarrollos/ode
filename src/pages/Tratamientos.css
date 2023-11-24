@@ -68,6 +68,8 @@
 
 /* estilos que agregue */
 
+
+
 .tratamientos-fondo-bicolor {
     margin: 0;
     width: 100%;
@@ -87,7 +89,7 @@
 .title-row {
     width: 100%;
     text-align: left;
-    font-family: var(--third-fontfamily);
+    font-family: var(--title-fontfamily);
     font-size: 28px;
     font-weight: 700;
     line-height: 29px;
@@ -123,14 +125,14 @@
 }
 
 .card-tratamiento_body .card-tratamiento_subtitle {
-    font-family: var(--third-fontfamily);
+    font-family: var(--title-fontfamily);
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0;
     margin-left: 2rem;
 }
 
-.card-tratamiento_body .card-tratamiento_adventages {
+.card-tratamiento_adventages {
     margin: 1.2rem 2.5rem;
     font-size: 14px;
     font-family: var(--title-fontfamily);
@@ -177,7 +179,7 @@
 .accordion-button {
     background-color: #F4FBEC;
     color: var(--main-color);
-    font-family: var(--third-fontfamily);
+    font-family: var(--title-fontfamily);
     font-size: 16px;
     font-weight: 700;
     border: none; 
