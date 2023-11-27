@@ -1,14 +1,118 @@
+.carrousel-container {
+    background-color: #f4fbec;
+    padding: 4rem 7rem;
+}
+
+@media (max-width: 426px) {
+    .carrousel-container {
+        padding: 1rem;
+    }
+}
+
+.nosotros-description {
+    text-align: center;
+}
+@media (max-width: 426px) {
+    .nosotros-description {
+        text-align: left;
+    }
+}
 .nosotros-description .title {
     font-family: var(--third-fontfamily);
     color: var(--main-color);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 2rem;
     line-height: 28px;
+    margin-bottom: 2rem;
+}
+@media (max-width: 426px) {
+    .nosotros-description .title {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .nosotros-description .text {
     font-family: var(--title-fontfamily);
     font-size: 14px;
-    font-weight: 500;
     line-height: 17px;
+    padding: 0 1.8rem;
+    font-weight: 600;
 }
+
+@media (max-width: 426px) {
+    .nosotros-description .text {
+        font-weight: 500;
+        padding: 0 1rem;
+    }
+}
+
+.nosotros-description .text .text-important {
+    color: var(--main-color);
+}
+
+.carrousel-format {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 3px;
+    border: 1px solid var(--main-color);
+}
+
+.carousel-indicators .active {
+    background-color: var(--main-color);
+}
+
+/* Agrega una regla para ocultar el icono predeterminado de Bootstrap */
+/* .carousel-control-prev-icon, .carousel-control-prev-icon {
+    display: none;
+  } */
+
+/* Utiliza un pseudo-elemento para agregar tu propia flecha personalizada */
+.custom-carousel-control-prev-icon::before {
+    content: '\2039';
+    /* Código Unicode para una flecha simple hacia la izquierda (<) */
+    font-size: 5rem;
+    /* Tamaño de la flecha */
+    color: var(--main-color);
+    /* Color deseado para la flecha */
+}
+
+.custom-carousel-control-next-icon::before {
+    content: '\203A';
+    /* Código Unicode para una flecha simple hacia la izquierda (<) */
+    font-size: 5rem;
+    /* Tamaño de la flecha */
+    color: var(--main-color);
+    /* Color deseado para la flecha */
+}
+@media (max-width: 426px) {
+    .custom-carousel-control-prev-icon::before,
+    .custom-carousel-control-next-icon::before {
+        display: none;
+    }
+
+}
+.somos-definicion {
+    margin-bottom: 6rem;
+}
+@media (max-width: 426px) {
+    .somos-definicion {
+        margin: 0 !important;
+        margin-bottom: 6rem;
+        margin-top: 1rem !important;
+    }
+    .somos-definicion article {
+        padding: 0 1rem;
+    }
+}
+
+
+

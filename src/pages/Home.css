@@ -310,3 +310,22 @@
 .home .testimonios {
   padding: 2rem 0;
 }
+
+/* Utiliza un pseudo-elemento para agregar tu propia flecha personalizada */
+.custom-carousel-control-prev-icon::before {
+  content: '\2039';
+  /* Código Unicode para una flecha simple hacia la izquierda (<) */
+  font-size: 5rem;
+  /* Tamaño de la flecha */
+  color: var(--main-color);
+  /* Color deseado para la flecha */
+}
+
+.custom-carousel-control-next-icon::before {
+  content: '\203A';
+  /* Código Unicode para una flecha simple hacia la izquierda (<) */
+  font-size: 5rem;
+  /* Tamaño de la flecha */
+  color: var(--main-color);
+  /* Color deseado para la flecha */
+}

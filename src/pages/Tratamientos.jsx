@@ -36,7 +36,7 @@ function Tratamientos() {
     <section className="tratamientos-fondo-bicolor">
       <section className="container">
         <section className="tratamientos-container row">
-          <div className="d-flex align-items-center  mobil">
+          <div className="d-flex align-items-center  mobil mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none" className="msvg">
               <circle cx="12.0004" cy="12.5004" r="4.36364" fill="#078901" />
               <path d="M12 0.5C5.4 0.5 0 5.9 0 12.5C0 19.1 5.4 24.5 12 24.5C18.6 24.5 24 19.1 24 12.5C24 5.9 18.6 0.5 12 0.5ZM12 22.1C6.708 22.1 2.4 17.792 2.4 12.5C2.4 7.208 6.708 2.9 12 2.9C17.292 2.9 21.6 7.208 21.6 12.5C21.6 17.792 17.292 22.1 12 22.1Z" fill="#078901" />

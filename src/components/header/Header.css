@@ -1,3 +1,7 @@
+header {
+    border-bottom: 1px solid #228A5C;
+}
+
 .top-header {
     display: flex;
     justify-content: space-between;
