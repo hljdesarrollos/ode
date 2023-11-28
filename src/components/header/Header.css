@@ -1,12 +1,13 @@
 header {
     border-bottom: 1px solid #228A5C;
+    background-color: rgb(244,251,236) !important;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background: white;
+    /* background: white; */
 }
 
 .top-header .top-header_brand {
@@ -81,7 +82,7 @@ header {
     width: 100%;
     height: calc(100vh - 70px);
     font-family: var(--title-fontfamily);
-    background-color: #fff;
+    background-color: rgb(244,251,236) !important;
     z-index: 1;
 }
 
@@ -180,4 +181,10 @@ header {
     color: #666;    
     font-weight: 600;
     padding: 0 1rem;
+}
+
+.top-header  .text-num {
+    text-decoration: none !important;
+    color: #228A5C;
+    cursor: pointer;
 }

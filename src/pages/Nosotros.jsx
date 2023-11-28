@@ -1,7 +1,7 @@
 import { CardValores } from "../components/partials/CardValores";
 import picture1 from "../public/image/c1.png";
-import picture2 from "../public/image/c1.png";
-import picture3 from "../public/image/c1.png";
+import picture2 from "../public/image/c2.png";
+import picture3 from "../public/image/c3.png";
 import check from "../public/image/check.png";
 import heart from "../public/image/heart.png";
 import "./Nosotros.css";
@@ -15,6 +15,17 @@ const Nosotros = () => {
               id="carouselExampleIndicators"
               className="carousel slide carrousel-format"
             >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img src={picture1} className="d-block w-100" alt="image" />
+                </div>
+                <div className="carousel-item">
+                  <img src={picture2} className="d-block w-100" alt="image" />
+                </div>
+                <div className="carousel-item">
+                  <img src={picture3} className="d-block w-100" alt="image" />
+                </div>
+              </div>
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -36,17 +47,6 @@ const Nosotros = () => {
                   data-bs-slide-to={2}
                   aria-label="Slide 3"
                 />
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={picture1} className="d-block w-100" alt="image" />
-                </div>
-                <div className="carousel-item">
-                  <img src={picture2} className="d-block w-100" alt="image" />
-                </div>
-                <div className="carousel-item">
-                  <img src={picture3} className="d-block w-100" alt="image" />
-                </div>
               </div>
               <button
                 className="carousel-control-prev"

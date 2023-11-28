@@ -199,7 +199,7 @@ const Footer = () => {
           <hr />
           <p className="d-flex  gap-1 align-items-center">
             <i className="fa-brands fa-whatsapp fa-xl"></i>
-            <span>Solicitá tu turno</span>
+            <a className="text-num" href="https://api.whatsapp.com/send?phone=0123456789">1170147148</a>
           </p>
         </div>
         <div className="col-sm-4 col-lg-2 d-block d-sm-none">

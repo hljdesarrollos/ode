@@ -1,5 +1,5 @@
 .carrousel-container {
-    background-color: #f4fbec;
+    background-color: rgb(244,251,236);
     padding: 4rem 7rem;
 }
 
@@ -55,6 +55,11 @@
 .carrousel-format {
     border-radius: 20px;
     overflow: hidden;
+}
+
+.carousel-indicators {
+    position: unset !important;
+    margin-top: 2rem;
 }
 
 .carousel-indicators [data-bs-target] {

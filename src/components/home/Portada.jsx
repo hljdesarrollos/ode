@@ -82,7 +82,7 @@ const Portada = () => {
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
-            Horarios: De lu. a sa. de 9:00 a 20 hs.
+            Horarios: Lu. a vi. de 10 a 19 hs. y sa. de 10 a 18 hs.
           </p>
         </div>
       </div>
