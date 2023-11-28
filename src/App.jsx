@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Tratamientos from "./pages/Tratamientos";
 import Nosotros from "./pages/Nosotros";
@@ -13,17 +13,17 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header show={show} setShow={setShow} />
         <Routes>
-          <Route path="/" element={<Home show={show} setShow={setShow}  />} />
+          <Route path="/" element={<Home show={show} setShow={setShow} />} />
           <Route path="/tratamientos" element={<Tratamientos />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/tratamientos/:nombre" element={<Tratamientos />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
