@@ -2,8 +2,6 @@ import { CardValores } from "../components/partials/CardValores";
 import picture1 from "../public/image/c1.png";
 import picture2 from "../public/image/c2.png";
 import picture3 from "../public/image/c3.png";
-import check from "../public/image/check.png";
-import heart from "../public/image/heart.png";
 import "./Nosotros.css";
 
 const Nosotros = () => {

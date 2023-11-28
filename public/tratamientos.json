@@ -4,7 +4,7 @@
       {
         "ref": "implantes_dentales",
         "name": "Implantes dentales",
-        "image": "../../public/images/implantes_dentales.png",
+        "image": "./images/implantes_dentales.png",
         "information": "El implante dental es un método muy frecuente para reemplazar piezas ausentes o en mal estado, mediante una intervención quirúrgica sencilla e indolora.",
         "adventages": [
           "Puede utilizarse como anclaje de prótesis removibles.",
@@ -17,7 +17,7 @@
       {
         "ref": "limpieza_sarro",
         "name": "Limpieza de sarro",
-        "image": "../../public/images/limpieza_de_sarro.png",
+        "image": "./images/limpieza_de_sarro.png",
         "information": "oEs un procedimiento mediante el cual se retira la placa bacteriana o tartaro que se ha formado sobre los dientes, muchas veces produciendo cálculos.",
         "adventages": [
           "Evita futuras caries.",
@@ -28,7 +28,7 @@
       },{
         "ref": "placas_miorrelajantes",
         "name": "Placas miorrelajantes",
-        "image": "../../public/images/placas_miorelajantes.png",
+        "image": "./images/placas_miorelajantes.png",
         "information": "Es una placa que actúa como funda de la arcada dentaria para prevenir desgaste por bruxismo o mala oclusión.",
         "adventages": [
           "Evita rotura de dientes por fricción oclusal.",
@@ -41,7 +41,7 @@
       {
         "ref": "protesis_dental",
         "name": "Prótesis dental",
-        "image": "../../public/images/protesis_dentales.png",
+        "image": "./images/protesis_dentales.png",
         "information": "Es un elemento utilizado para reemplazar piezas naturales ausentes por artificiales. Puede ser fija o removible.",
         "adventages": [
           "Permite la correcta masticación. Son semejantes a los dientes naturales.",
@@ -51,11 +51,11 @@
         "process": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar. En diferentes sesiones realiza registros y pruebas que envía al laboratorio dental para la confección de las mismas, una vez instaladas suelen requerir algún control para asegurar su correcto funcionamiento.",
         "titulo_acordeon": "Prótesis Implantosoportadas",
         "texto_acordeon": "Son prótesis que se fijan en implantes en lugar de usar los dientes naturales, con esta técnica puede recuperarse una o la totalidad de las piezas dentales.",
-        "imagen_acordeon": "../../public/images/protesis_dental_acordeon.png"
+        "imagen_acordeon": "./images/protesis_dental_acordeon.png"
       },{
         "ref": "arreglo_caries",
         "name": "Arreglo de caries",
-        "image": "../../public/images/arreglo_de_caries.png",
+        "image": "./images/arreglo_de_caries.png",
         "information": "Es un proceso indoloro generalmente rápido en el cual se cura y se reconstruye el diente permitiendo realizar una o varias en la misma sesión.",
         "adventages": [
           "Asegura la sanidad del diente.",
@@ -67,7 +67,7 @@
       {
         "ref": "cirugia_maxilofacial",
         "name": "Cirugía maxilofacial",
-        "image": "../../public/images/cirugia_maxilofacial.png",
+        "image": "./images/cirugia_maxilofacial.png",
         "information": "Son cirugías que realiza un cirujano maxilofacial, las cuales necesitan de cierta especialización, por lo que el odontólogo general deriva al paciente con su colega.",
         "adventages": [
           "Diagnósticos precisos.",
@@ -78,7 +78,7 @@
       },{
         "ref": "prevencion_diagnostico",
         "name": "Prevención y diagnóstico",
-        "image": "../../public/images/prevencion_y_diagnostico.png",
+        "image": "./images/prevencion_y_diagnostico.png",
         "information": "Es una consulta en la cual el odontólogo evalúa el estado bucal del paciente y considera si debe realizarse algún tratamiento y de qué tipo. Puede requerir estudios previos (radiografías, tomografías, etc).",
         "adventages": [
           "Permite detección temprana de caries y de enfermedades.",
@@ -89,7 +89,7 @@
       {
         "ref": "endodoncia",
         "name": "Endodóncia",
-        "image": "../../public/images/endodoncia.png",
+        "image": "./images/endodoncia.png",
         "information": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
         "adventages": [
           "Evita dolor en dientes en que la carie llega al nervio.",
@@ -100,14 +100,14 @@
         "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
         "titulo_acordeon": "Recontrucción con poste de fibra",
         "texto_acordeon": "Este procedimiento se utiliza para rehabilitar un diente endodonciado en forma rápida y eficaz.",
-        "imagen_acordeon": "../../public/images/endodoncia_acordeon.png"
+        "imagen_acordeon": "./images/endodoncia_acordeon.png"
       }      
     ],
     "estetica": [
       {
         "ref": "ortodoncia",
         "name": "Ortodóncia",
-        "image": "../../public/images/ortodoncia.png",
+        "image": "./images/ortodoncia.png",
         "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
         "adventages": [
           "Alinear y nivela los dientes.",
@@ -119,7 +119,7 @@
       {
         "ref": "blanqueamientos",
         "name": "Blanqueamientos dental",
-        "image": "../../public/images/blanqueamiento_dental.png",
+        "image": "./images/blanqueamiento_dental.png",
         "information": "Es un aclaramiento de color de los dientes con fines estéticos.",
         "adventages": [
           "Mejora el aspecto de los dientes, resalta la sonrisa.",
@@ -131,7 +131,7 @@
       {
         "ref": "carillas_dentales",
         "name": "Carillas dentales",
-        "image": "../../public/images/carillas_dentales.png",
+        "image": "./images/carillas_dentales.png",
         "information": "Se realizan con el fin de mejorar la estética de dientes, logrando mejorar la sonrisa.",
         "adventages": [
           "Evita el tallado del diente natural.",
