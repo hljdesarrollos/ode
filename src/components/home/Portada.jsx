@@ -18,8 +18,8 @@ const Portada = () => {
               ODE, Consultorios odontológicos
             </p>
             <div className="btn-actions">
-              <a className="btn btn-action">Solicitá tu turno por Whatsapp</a>
-              <a className="btn btn-action">Contactános por telefono</a>
+              <a href="https://api.whatsapp.com/send?phone=1170147148" className="btn btn-action">Solicitá tu turno por Whatsapp</a>
+              <a href="tel:+54-1146647931" className="btn btn-action">Contactános por telefono</a>
             </div>
           </div>
         </div>
