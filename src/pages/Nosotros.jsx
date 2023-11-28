@@ -30,12 +30,12 @@ const Nosotros = () => {
                   data-bs-slide-to={1}
                   aria-label="Slide 2"
                 />
-                {/* <button
+                <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
                   data-bs-slide-to={2}
                   aria-label="Slide 3"
-                /> */}
+                />
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -44,9 +44,9 @@ const Nosotros = () => {
                 <div className="carousel-item">
                   <img src={picture2} className="d-block w-100" alt="image" />
                 </div>
-                {/* <div className="carousel-item">
+                <div className="carousel-item">
                   <img src={picture3} className="d-block w-100" alt="image" />
-                </div> */}
+                </div>
               </div>
               <button
                 className="carousel-control-prev"

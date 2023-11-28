@@ -15,6 +15,30 @@
         "process": "Es una intervención, que por lo general, se realiza en media hora y se espera la osteointegración, que es el tiempo que tarda en aceptarlo el organismo, una vez cumplido se realiza la colocación de la corona. "
       },
       {
+        "ref": "limpieza_sarro",
+        "name": "Limpieza de sarro",
+        "image": "../../public/images/limpieza_de_sarro.png",
+        "information": "oEs un procedimiento mediante el cual se retira la placa bacteriana o tartaro que se ha formado sobre los dientes, muchas veces produciendo cálculos.",
+        "adventages": [
+          "Evita futuras caries.",
+          "Proporciona bienestar en las encías.",
+          "Mejora la apariencia de la dentadura."
+        ],
+        "process": "Es una intervención no dolorosa en la que se utiliza un cavitador de ultrasonido, entre otros elementos. Dura aproximadamente media hora, puede requerir más de una sesión."
+      },{
+        "ref": "placas_miorrelajantes",
+        "name": "Placas miorrelajantes",
+        "image": "../../public/images/placas_miorelajantes.png",
+        "information": "Es una placa que actúa como funda de la arcada dentaria para prevenir desgaste por bruxismo o mala oclusión.",
+        "adventages": [
+          "Evita rotura de dientes por fricción oclusal.",
+          "Relaja la oclusión de los dientes.",
+          "Alivia molestias de las articulaciones mandibulares.",
+          "Son casi imperceptibles."
+        ],
+        "process": "Este es un tratamiento no invasivo en el que el profesional toma un molde de la boca y confecciona una placa a medida, que se entregará al paciente en la próxima visita."
+      },
+      {
         "ref": "protesis_dental",
         "name": "Prótesis dental",
         "image": "../../public/images/protesis_dentales.png",
@@ -28,18 +52,39 @@
         "titulo_acordeon": "Prótesis Implantosoportadas",
         "texto_acordeon": "Son prótesis que se fijan en implantes en lugar de usar los dientes naturales, con esta técnica puede recuperarse una o la totalidad de las piezas dentales.",
         "imagen_acordeon": "../../public/images/protesis_dental_acordeon.png"
+      },{
+        "ref": "arreglo_caries",
+        "name": "Arreglo de caries",
+        "image": "../../public/images/arreglo_de_caries.png",
+        "information": "Es un proceso indoloro generalmente rápido en el cual se cura y se reconstruye el diente permitiendo realizar una o varias en la misma sesión.",
+        "adventages": [
+          "Asegura la sanidad del diente.",
+          "Evita pérdidas prematuras de piezas dentales.",
+          "Mejora la apariencia del diente."
+        ],
+        "process": "Es un proceso generalmente rápido en el cual repara el diente dañado y se reconstruye, permite realizar si es necesario en varias sesiones o en la misma."
       },
       {
-        "ref": "ortodoncia",
-        "name": "Ortodóncia",
-        "image": "../../public/images/ortodoncia.png",
-        "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
+        "ref": "cirugia_maxilofacial",
+        "name": "Cirugía maxilofacial",
+        "image": "../../public/images/cirugia_maxilofacial.png",
+        "information": "Son cirugías que realiza un cirujano maxilofacial, las cuales necesitan de cierta especialización, por lo que el odontólogo general deriva al paciente con su colega.",
         "adventages": [
-          "Alinear y nivela los dientes.",
-          "Corrige la mordida.",
-          "Disminución de desgaste dental por oclusión incorrecta."
+          "Diagnósticos precisos.",
+          "Intervención adecuada al caso.",
+          "Minimiza los tiempos de recuperación."
         ],
-        "process": "El paciente es citado con ciertos estudios previos y se instalan brackets, ya sea metálicos o estéticos. Son tratamientos largos en los cuales deberá concurrir mensualmente para que el ortodoncista realice los ajustes pertinentes."
+        "process": "El cirujano interviene al paciente en casos de complejidad (extracción de dientes retenidos, dientes incluidos en estructura ósea, presencia de quistes, muestras para biopsia, relleno óseo para la colocación de implantes, etc). Son cirugías programadas en las cuales suele participar el profesional y asistente. Su duración varía según el caso."
+      },{
+        "ref": "prevencion_diagnostico",
+        "name": "Prevención y diagnóstico",
+        "image": "../../public/images/prevencion_y_diagnostico.png",
+        "information": "Es una consulta en la cual el odontólogo evalúa el estado bucal del paciente y considera si debe realizarse algún tratamiento y de qué tipo. Puede requerir estudios previos (radiografías, tomografías, etc).",
+        "adventages": [
+          "Permite detección temprana de caries y de enfermedades.",
+          "Asesoramiento y consejo profesional para el cuidado tanto en niños como adultos."
+        ],
+        "process": "Una consulta de este tipo dura aproximadamente 15 minutos y es aconsejable realizarla semestralmente. "
       },
       {
         "ref": "endodoncia",
@@ -56,6 +101,20 @@
         "titulo_acordeon": "Recontrucción con poste de fibra",
         "texto_acordeon": "Este procedimiento se utiliza para rehabilitar un diente endodonciado en forma rápida y eficaz.",
         "imagen_acordeon": "../../public/images/endodoncia_acordeon.png"
+      }      
+    ],
+    "estetica": [
+      {
+        "ref": "ortodoncia",
+        "name": "Ortodóncia",
+        "image": "../../public/images/ortodoncia.png",
+        "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
+        "adventages": [
+          "Alinear y nivela los dientes.",
+          "Corrige la mordida.",
+          "Disminución de desgaste dental por oclusión incorrecta."
+        ],
+        "process": "El paciente es citado con ciertos estudios previos y se instalan brackets, ya sea metálicos o estéticos. Son tratamientos largos en los cuales deberá concurrir mensualmente para que el ortodoncista realice los ajustes pertinentes."
       },
       {
         "ref": "blanqueamientos",
@@ -70,17 +129,6 @@
         "process": "Este procedimiento es indoloro, no requiere de anestesia. Se aplica un producto sobre los dientes y un protector de gingiva sobre las encías para evitar irritación, luego con un led se activa el producto que hará efecto a la brevedad aclarando el diente, en el caso de sensibilidad se aplican productos para contrarrestar dicho efecto."
       },
       {
-        "ref": "implantes_dentales2",
-        "name": "Prevención y diagnóstico",
-        "image": "../../public/images/prevencion_y_diagnostico.png",
-        "information": "Es una consulta en la cual el odontólogo evalúa el estado bucal del paciente y considera si debe realizarse algún tratamiento y de qué tipo. Puede requerir estudios previos (radiografías, tomografías, etc).",
-        "adventages": [
-          "Permite detección temprana de caries y de enfermedades.",
-          "Asesoramiento y consejo profesional para el cuidado tanto en niños como adultos."
-        ],
-        "process": "Una consulta de este tipo dura aproximadamente 15 minutos y es aconsejable realizarla semestralmente. "
-      },
-      {
         "ref": "carillas_dentales",
         "name": "Carillas dentales",
         "image": "../../public/images/carillas_dentales.png",
@@ -91,72 +139,6 @@
           "Cierra espacios interdentales y permite dar forma y tono deseado al diente natural."
         ],
         "process": "Luego de una exhaustiva limpieza de la superficie dental, se aplican resinas compuestas fotopolimerizables del tono acordado con el paciente y utilizando matrices preformadas para moldearlas. Luego se pule con pasta de diamante."
-      },
-      {
-        "ref": "ortodoncia2",
-        "name": "Limpieza de sarro",
-        "image": "../../public/images/limpieza_de_sarro.png",
-        "information": "oEs un procedimiento mediante el cual se retira la placa bacteriana o tartaro que se ha formado sobre los dientes, muchas veces produciendo cálculos.",
-        "adventages": [
-          "Evita futuras caries.",
-          "Proporciona bienestar en las encías.",
-          "Mejora la apariencia de la dentadura."
-        ],
-        "process": "Es una intervención no dolorosa en la que se utiliza un cavitador de ultrasonido, entre otros elementos. Dura aproximadamente media hora, puede requerir más de una sesión."
-      },
-      {
-        "ref": "endodoncia2",
-        "name": "Arreglo de caries",
-        "image": "../../public/images/arreglo_de_caries.png",
-        "information": "Es un proceso indoloro generalmente rápido en el cual se cura y se reconstruye el diente permitiendo realizar una o varias en la misma sesión.",
-        "adventages": [
-          "Asegura la sanidad del diente.",
-          "Evita pérdidas prematuras de piezas dentales.",
-          "Mejora la apariencia del diente."
-        ],
-        "process": "Es un proceso generalmente rápido en el cual repara el diente dañado y se reconstruye, permite realizar si es necesario en varias sesiones o en la misma."
-      }
-    ],
-    "estetica": [
-      {
-        "ref": "protesis_dental3",
-        "name": "Endodoncia",
-        "image": "../../public/images/endodoncia.png",
-        "information": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
-        "adventages": [
-          "Evita dolor en dientes en que la carie llega al nervio.",
-          "Alarga la vida útil del diente.",
-          "Evita la extracción.",
-          "Conserva la pieza original."
-        ],
-        "process": "Se extirpa el nervio de él o los conductos radiculares y luego se los obtura. Requiere uso de anestesia.",
-        "titulo_acordeon": "Recontrucción con poste de fibra",
-        "texto_acordeon": "La endodoncia o tratamiento de conducto tiene como objetivo sanar el diente en caso de caries profundas.",
-        "imagen_acordeon": "../../public/images/endodoncia.png"
-      },
-      {
-        "ref": "protesis_implantosoportadas",
-        "name": "Cirugía maxilofacial",
-        "image": "../../public/images/cirugia_maxilofacial.png",
-        "information": "Son cirugías que realiza un cirujano maxilofacial, las cuales necesitan de cierta especialización, por lo que el odontólogo general deriva al paciente con su colega.",
-        "adventages": [
-          "Diagnósticos precisos.",
-          "Intervención adecuada al caso.",
-          "Minimiza los tiempos de recuperación."
-        ],
-        "process": "El cirujano interviene al paciente en casos de complejidad (extracción de dientes retenidos, dientes incluidos en estructura ósea, presencia de quistes, muestras para biopsia, relleno óseo para la colocación de implantes, etc). Son cirugías programadas en las cuales suele participar el profesional y asistente. Su duración varía según el caso."
-      },
-      {
-        "ref": "ortodoncia3",
-        "name": "Ortodóncia",
-        "image": "../../public/images/ortodoncia.png",
-        "information": "Este tratamiento si bien puede ser funcional a la masticación en casos extremos, mayormente se lo aplica con fines estéticos.",
-        "adventages": [
-          "Alinear y nivela los dientes.",
-          "Corrige la mordida.",
-          "Disminución de desgaste dental por oclusión incorrecta."
-        ],
-        "process": "El paciente es citado con ciertos estudios previos y se instalan brackets, ya sea metálicos o estéticos. Son tratamientos largos en los cuales deberá concurrir mensualmente para que el ortodoncista realice los ajustes pertinentes."
       }
     ]
   }

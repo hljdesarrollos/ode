@@ -85,6 +85,13 @@ header {
     z-index: 1;
 }
 
+.navigation .menu-tratamientos .menu_close_button {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    cursor: pointer;
+}
+
 .navigation .menu-tratamientos .tratamientos-container {
     height: 100%;
     color: var(--main-color);

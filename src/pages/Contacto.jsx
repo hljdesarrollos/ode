@@ -2,7 +2,7 @@ import "./contacto.css";
 
 const Contacto = () => {
   return (
-    <section id="contacto" className="row">
+    <section id="contacto" className="row gap-0 mx-0">
       <article className="offset-1 col-lg-6 contacto-article">
         <div className="encabezado-mapa">
           <div className="encabezado-contenido">
