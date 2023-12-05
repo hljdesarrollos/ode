@@ -45,7 +45,7 @@ function Tratamientos() {
           </div>
           <section className="column-container">
             <article className="text-column">
-              <div className="card-tratamiento_body">
+              <div className="card-tratamiento_body mb-5">
                 <div className="card-tratamiento_info">
                   <div className="d-flex align-items-center">
                     <svg
@@ -74,7 +74,7 @@ function Tratamientos() {
                     >
                       <path
                         d="M11 0C4.95 0 0 4.95 0 11C0 17.05 4.95 22 11 22C17.05 22 22 17.05 22 11C22 4.95 17.05 0 11 0ZM11 19.8C6.149 19.8 2.2 15.851 2.2 11C2.2 6.149 6.149 2.2 11 2.2C15.851 2.2 19.8 6.149 19.8 11C19.8 15.851 15.851 19.8 11 19.8ZM16.049 6.138L8.8 13.387L5.951 10.549L4.4 12.1L8.8 16.5L17.6 7.7L16.049 6.138Z"
-                        fill="#00AF62" />
+                        fill="#078901" />
                     </svg>
                     <h2 className="card-tratamiento_subtitle">Ventajas</h2>
                   </div>
@@ -95,7 +95,7 @@ function Tratamientos() {
                     >
                       <path
                         d="M11 0C4.95 0 0 4.95 0 11C0 17.05 4.95 22 11 22C17.05 22 22 17.05 22 11C22 4.95 17.05 0 11 0ZM11 19.8C6.149 19.8 2.2 15.851 2.2 11C2.2 6.149 6.149 2.2 11 2.2C15.851 2.2 19.8 6.149 19.8 11C19.8 15.851 15.851 19.8 11 19.8ZM16.049 6.138L8.8 13.387L5.951 10.549L4.4 12.1L8.8 16.5L17.6 7.7L16.049 6.138Z"
-                        fill="#00AF62" />
+                        fill="#078901" />
                     </svg>
                     <h2 className="card-tratamiento_subtitle">Proceso</h2>
                   </div>

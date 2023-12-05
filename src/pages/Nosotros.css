@@ -1,8 +1,13 @@
 .carrousel-container {
     background-color: rgb(244,251,236);
     /* background-color: red; */
-    padding-bottom: 4rem;
+    padding: 4rem 11rem;
+}
 
+@media (max-width: 1024px) {
+    .carrousel-container {
+        padding: 4rem 6rem;
+    }
 }
 
 @media (max-width: 426px) {
@@ -20,7 +25,7 @@
     }
 }
 .nosotros-description .title {
-    font-family: var(--third-fontfamily);
+    font-family: var(--fourth-fontfamily);;
     color: var(--main-color);
     font-weight: 700;
     font-size: 2rem;
@@ -52,6 +57,7 @@
 
 .nosotros-description .text .text-important {
     color: var(--main-color);
+    font-weight: 700;
 }
 
 .carrousel-format {

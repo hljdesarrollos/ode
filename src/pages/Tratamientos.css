@@ -89,7 +89,7 @@
 .title-row {
     width: 100%;
     text-align: left;
-    font-family: var(--title-fontfamily);
+    font-family: var(--fourth-fontfamily);;
     font-size: 28px;
     font-weight: 700;
     line-height: 29px;

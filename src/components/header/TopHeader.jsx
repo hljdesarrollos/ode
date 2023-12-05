@@ -147,7 +147,7 @@ const TopHeader = ({ show, setShow }) => {
                   fill="black"
                 />
               </svg>
-              <article className="col-8">
+              <article className="col-8 mb-5">
                 <p className="tipo-tratamiento">Salud Dental</p>
                 <hr />
                 <div className="row">

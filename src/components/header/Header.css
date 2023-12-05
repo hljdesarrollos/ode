@@ -28,7 +28,8 @@ header {
     gap: 10px;
     align-items: center;
     color: var(--main-color);
-    font-family: var(--title-fontfamily);
+    /* font-family: var(--title-fontfamily); */
+    font-family: var(--fifth-fontfamily);
     font-size: 16px;
     font-weight: 700;
 }
@@ -61,6 +62,11 @@ header {
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
+}
+
+.navbar-item .navbar-link:hover {
+    color: #228A5C;
+    font-weight: bold;
 }
 
 .navbar-item .dropmenu {
@@ -123,6 +129,10 @@ header {
     line-height: 20px;
     letter-spacing: 0em;
     color: black;
+}
+
+.navigation .menu-tratamientos .tratamientos-container .tratamiento .tratamiento-link:hover {
+    font-weight: bold;
 }
 
 .top-header-sm {
