@@ -22,29 +22,29 @@ const Footer = () => {
           </p>
           <hr />
           <div className="d-none d-sm-block">
-              <div className="row">
-                {salud.map((item) => (
-                  <div className="col-6 col-sm-4">
-                    <NavLink
-                      className="footer-item"
-                      to={`/tratamientos/${item.ref}`}
-                    >
-                      {item.name}
-                    </NavLink>
-                  </div>
-                ))}
-                {estetica.map((item) => (
-                  <div className="col-6 col-sm-4">
-                    <NavLink
-                      className="footer-item"
-                      to={`/tratamientos/${item.ref}`}
-                    >
-                      {item.name}
-                    </NavLink>
-                  </div>
-                ))}
-              </div>
+            <div className="row">
+              {salud.map((item) => (
+                <div className="col-6 col-sm-4">
+                  <NavLink
+                    className="footer-item"
+                    to={`/tratamientos/${item.ref}`}
+                  >
+                    {item.name}
+                  </NavLink>
+                </div>
+              ))}
+              {estetica.map((item) => (
+                <div className="col-6 col-sm-4">
+                  <NavLink
+                    className="footer-item"
+                    to={`/tratamientos/${item.ref}`}
+                  >
+                    {item.name}
+                  </NavLink>
+                </div>
+              ))}
             </div>
+          </div>
           {show && (
             <div className="d-block d-sm-none">
               <div className="row">
@@ -77,43 +77,11 @@ const Footer = () => {
           <p className="footer-title">Seguinos</p>
           <hr />
           <div className="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="feather feather-instagram footer-social"
+            <a
+              href="https://www.instagram.com/ode.odontologia.sm"
+              target="_blank"
+              style={{ textDecoration: "none", color: "white" }}
             >
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="feather feather-facebook footer-social"
-            >
-              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-            </svg>
-          </div>
-        </div>
-        <div className="col-sm-4 col-lg-2 d-block d-sm-none">
-          <div className="d-flex justify-content-between">
-            <p className="footer-title">Seguinos</p>
-
-            <div className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -130,6 +98,12 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
               </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009685352810"
+              target="_blank"
+              style={{ textDecoration: "none", color: "white" }}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -144,6 +118,56 @@ const Footer = () => {
               >
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
               </svg>
+            </a>
+          </div>
+        </div>
+        <div className="col-sm-4 col-lg-2 d-block d-sm-none">
+          <div className="d-flex justify-content-between">
+            <p className="footer-title">Seguinos</p>
+
+            <div className="">
+              <a
+                href="https://www.instagram.com/ode.odontologia.sm"
+                target="_blank"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="feather feather-instagram footer-social"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100009685352810"
+                target="_blank"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="feather feather-facebook footer-social"
+                >
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
             </div>
           </div>
           <hr className="mt-0" />
@@ -199,7 +223,12 @@ const Footer = () => {
           <hr />
           <p className="d-flex  gap-1 align-items-center">
             <i className="fa-brands fa-whatsapp fa-xl"></i>
-            <a className="text-num" href="https://api.whatsapp.com/send?phone=1170147148">11 7014 7148</a>
+            <a
+              className="text-num"
+              href="https://api.whatsapp.com/send?phone=1170147148"
+            >
+              11 7014 7148
+            </a>
           </p>
         </div>
         <div className="col-sm-4 col-lg-2 d-block d-sm-none">
@@ -207,7 +236,12 @@ const Footer = () => {
             <p className="footer-title">Whatsapp</p>
             <p className="d-flex  gap-1 align-items-center">
               <i className="fa-brands fa-whatsapp fa-xl"></i>
-              <a className="text-num" href="https://api.whatsapp.com/send?phone=1170147148">11 7014 7148</a>
+              <a
+                className="text-num"
+                href="https://api.whatsapp.com/send?phone=1170147148"
+              >
+                11 7014 7148
+              </a>
             </p>
           </div>
           <hr className="mt-0" />

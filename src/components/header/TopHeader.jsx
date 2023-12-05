@@ -294,7 +294,7 @@ const TopHeader = ({ show, setShow }) => {
             </NavLink>
           </li>
           <hr className="divider mt-2" />
-          <li className="navbar-item mb-4">
+          <li className="navbar-item mb-0">
             <a
               onClick={() => {
                 setShow(false);
@@ -305,6 +305,7 @@ const TopHeader = ({ show, setShow }) => {
               Tratamientos <i className="fa-solid fa-chevron-right"></i>
             </a>
           </li>
+          <hr className="divider mt-2" />
           <li className="navbar-item mb-0">
             <NavLink
               onClick={() => {

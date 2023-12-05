@@ -7,8 +7,8 @@ import "./Nosotros.css";
 const Nosotros = () => {
   return (
     <>
-      <section className="container-fluid carrousel-container">
-          <article className="offset-lg-0 col-lg-12 offset-md-1 col-md-10 offset-sm-0 col-sm-12 col-12">
+      <section className="carrousel-container">
+          <article className="col-lg-12 col-md-12 offset-sm-0 col-sm-12 col-12">
             <div
               id="carouselExampleIndicators"
               className="carousel slide carrousel-format"
