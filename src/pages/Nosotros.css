@@ -1,11 +1,13 @@
 .carrousel-container {
     background-color: rgb(244,251,236);
-    /* padding: 4rem 7rem; */
+    /* background-color: red; */
+    padding-bottom: 4rem;
+
 }
 
 @media (max-width: 426px) {
     .carrousel-container {
-        /* padding: 1rem; */
+        padding-bottom: 2rem;
     }
 }
 
