@@ -2,7 +2,13 @@ header {
     border-bottom: 1px solid #228A5C;
     background-color: rgb(244,251,236) !important;
 }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(35, 139, 92)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
+.navbar-toggler:focus{
+    box-shadow: none;
+}
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -147,7 +153,7 @@ header {
     height: calc(100vh) !important;
     padding: 2rem 1.5rem;
     text-align: start !important;
-    background-color: #fff;
+    background-color: rgb(244,251,236) !important;
 }
 .navigation-sm .menu-tratamientos-sm {
     position: absolute;
@@ -156,7 +162,7 @@ header {
     width: 100%;
     height: calc(100vh - 70px);
     font-family: var(--title-fontfamily);
-    background-color: #fff;
+    background-color: rgb(244,251,236) !important;
     padding: 2rem;
 }
 

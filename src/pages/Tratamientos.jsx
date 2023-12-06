@@ -45,7 +45,7 @@ function Tratamientos() {
           </div>
           <section className="column-container">
             <article className="text-column">
-              <div className="card-tratamiento_body mb-5">
+              <div className="card-tratamiento_body mb-md-5 mb-4">
                 <div className="card-tratamiento_info">
                   <div className="d-flex align-items-center">
                     <svg

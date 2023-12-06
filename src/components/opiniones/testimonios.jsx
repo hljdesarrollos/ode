@@ -17,10 +17,9 @@ function Testimonios() {
       <h3 className="section-title">Opiniones de nuestros pacientes</h3>
       <div
         id="carouselExampleIndicators"
-        className="carousel slide carousel-dark d-none d-sm-block"
+        className="carousel slide d-none d-sm-block carrousel-format"
         data-bs-ride="true"
         data-bs-interval="3000"
-        
       >
         <div className="carousel-inner container">
           <div className="carousel-item active">
@@ -44,6 +43,28 @@ function Testimonios() {
               ))}
             </div>
           </div>
+        </div>
+        <div className="carousel-indicators ">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to={0}
+            className="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to={1}
+            aria-label="Slide 2"
+          />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to={2}
+            aria-label="Slide 3"
+          />
         </div>
         <button
           className="carousel-control-prev"
@@ -70,12 +91,12 @@ function Testimonios() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+
       <div
         id="carouselExampleIndicatorsSM"
-        className="carousel slide carousel-dark d-block d-sm-none"
+        className="carousel slide d-block d-sm-none carrousel-format"
         data-bs-ride="true"
-        data-bs-interval="1000"
-        
+        data-bs-interval="3000"
       >
         <div className="carousel-inner container">
           <div className="carousel-item active">
@@ -142,6 +163,17 @@ function Testimonios() {
             </div>
           </div>
         </div>
+        <div className="carousel-indicators ">
+          {filtrado.map((data,index)=>(
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicatorsSM"
+              data-bs-slide-to={index}
+              className={index == 0 && "active"}
+              aria-label={`Slide ${index + 1}`}
+            />
+          ))}
+        </div>
         <button
           className="carousel-control-prev"
           type="button"
@@ -149,7 +181,7 @@ function Testimonios() {
           data-bs-slide="prev"
         >
           <span
-            className="carousel-control-prev-icon"
+            className="custom-carousel-control-prev-icon"
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Previous</span>
@@ -161,13 +193,13 @@ function Testimonios() {
           data-bs-slide="next"
         >
           <span
-            className="carousel-control-next-icon"
+            className="custom-carousel-control-next-icon"
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      </section>
+    </section>
   );
 }
 
