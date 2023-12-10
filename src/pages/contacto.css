@@ -1,10 +1,12 @@
 #contacto {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   align-content: center;
 }
 
-
+hr {
+  color: var(--main-color);
+}
 #contacto ul {
   list-style: none;
   margin-top: 1rem;
