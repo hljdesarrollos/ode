@@ -6,7 +6,7 @@ const Portada = () => {
       <div className="row presentacion-portada">
         <div className="col-lg-7 col-md-7 d-lg-flex justify-content-center">
           <img
-            src="./images/portada.webp"
+            src="./images/portada.png"
             alt="portada"
             className="presentacion-imagen"
           />

@@ -1,7 +1,7 @@
 import { CardValores } from "../components/partials/CardValores";
-import picture1 from "../public/image/c1.webp";
-import picture2 from "../public/image/c2.webp";
-import picture3 from "../public/image/c3.webp";
+import picture1 from "../public/image/c1.png";
+import picture2 from "../public/image/c2.png";
+import picture3 from "../public/image/c3.png";
 import "./Nosotros.css";
 
 const Nosotros = () => {
@@ -107,7 +107,7 @@ const Nosotros = () => {
             <CardValores
               title="Misión"
               description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y calidad de asistencia odontológica."
-              img="./images/Frame 205.webp"
+              img="./images/Frame 205.png"
             />
           </article>
           <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
@@ -115,14 +115,14 @@ const Nosotros = () => {
               title="Valores"
               description="Contamos con profesionales en formación
               permanente, brindamos un trato cordial y aranceles accesibles."
-              img="./images/Frame 443.webp"
+              img="./images/Frame 443.png"
             />
           </article>
           <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
             <CardValores
               title="Visión"
               description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a aquello que caracteriza nuestro servicio."
-              img="./images/Frame 446.webp"
+              img="./images/Frame 446.png"
             />
           </article>
         </section>
