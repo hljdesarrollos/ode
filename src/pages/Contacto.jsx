@@ -4,32 +4,14 @@ const Contacto = () => {
   return (
     <section id="contacto" className="row gap-0 mx-0">
       <article className="offset-1 col-lg-6 contacto-article">
-        <div className="encabezado-mapa">
-          <div className="encabezado-contenido">
-            <div className="iconos-start">
-              <a href="https://www.google.com/maps/place/ODE/@-34.606768,-58.389649,16z/data=!4m6!3m5!1s0x95bccb608cc87791:0x35973ad825de397b!8m2!3d-34.606768!4d-58.389649!16s%2Fg%2F11gjxj1v1_?hl=es&entry=ttu" className="icono-link">
-                <i className="icono fa-solid fa-share-nodes fa-lg"></i>
-              </a>
-              <p className="texto">Consultorios Odontológicos</p>
-            </div>
-            <div className="iconos-link">
-              <a href="https://maps.app.goo.gl/y9gyUrBtodp7K7HN6" className="icono-link">
-                <i className="icono fa-solid fa-share-nodes fa-lg"></i>
-              </a>
-              <a href="https://maps.app.goo.gl/y9gyUrBtodp7K7HN6" className="icono-link">
-                <i className="icono fa-solid fa-expand fa-lg"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div id="mapa">
+      <div id="mapa">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8969204955524!2d-58.39184305031532!3d-34.60676798036276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb608cc87791%3A0x35973ad825de397b!2sODE!5e0!3m2!1ses!2sar!4v1678988445141!5m2!1ses!2sar"
             width="600"
             height="400"
-            style={{ border: 0 }}
+            // style={{ border: 0 }}
             allowfullscreen=""
+            style={{ borderRadius: '10px' }}
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
