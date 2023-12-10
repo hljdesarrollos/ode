@@ -32,6 +32,16 @@ function Tratamientos() {
     setTratamiento(tratamientosUnicos.find((t) => t.ref === nombre));
   };
 
+  const styles = {
+    "--bs-accordion-border-width": 0,
+    "--bs-accordion-border-radius": 0,
+    "--bs-accordion-inner-border-radius": 0,
+    "--bs-accordion-outer-border-radius": 0,
+};
+const stylesButton ={
+  "borderTop": "1px solid var(--main-color)",
+}
+
   return (
     <section className="tratamientos-fondo-bicolor">
       <section className="container">
@@ -45,7 +55,7 @@ function Tratamientos() {
           </div>
           <section className="column-container">
             <article className="text-column">
-              <div className="card-tratamiento_body mb-md-5 mb-4">
+              <div className="card-tratamiento_body mb-5">
                 <div className="card-tratamiento_info">
                   <div className="d-flex align-items-center">
                     <svg
@@ -80,7 +90,7 @@ function Tratamientos() {
                   </div>
                   <ul className="card-tratamiento_adventages">
                     {tratamiento?.adventages?.map(adventage => (
-                      <li key={adventage}>{adventage}</li>
+                      <li key={adventage}><span>{adventage}</span></li>
                     ))}
                   </ul>
                 </div>
@@ -103,7 +113,7 @@ function Tratamientos() {
                 </div>
                 { tratamiento && tratamiento.titulo_acordeon ? (
                 <div className="card-tratamiento_acordeon">
-                <div className="accordion">
+                <div className="accordion" style={styles}>
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="accordion-heading-1">
                       <button
@@ -113,6 +123,7 @@ function Tratamientos() {
                         data-bs-target="#accordion-collapse-1"
                         aria-expanded="true"
                         aria-controls="accordion-collapse-1"
+                        style={stylesButton}
                       >
                         {tratamiento.titulo_acordeon}
                       </button>
