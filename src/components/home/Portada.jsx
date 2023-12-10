@@ -6,7 +6,7 @@ const Portada = () => {
       <div className="row presentacion-portada">
         <div className="col-lg-7 col-md-7 d-lg-flex justify-content-center">
           <img
-            src="./images/portada.png"
+            src="./images/portada.webp"
             alt="portada"
             className="presentacion-imagen"
           />
@@ -27,10 +27,10 @@ const Portada = () => {
       <div className="row d-flex align-content-center presentacion-info">
         <div className="col-12 col-sm-12 col-md-4 text-center">
           <p>
-          <i>
+            <i>
               <svg
-              width="26"
-              height="26"
+                width="26"
+                height="26"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

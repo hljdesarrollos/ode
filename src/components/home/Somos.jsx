@@ -8,11 +8,11 @@ const Somos = () => {
       <section className="row">
         <article className="offset-lg-2 col-lg-8 offset-md-2 col-md-8 offset-sm-2 col-sm-8 offset-1 col-10">
           <p className="somos-description">
-            Contamos con consultorios odontológicos en San Miguel en los que 
-            hemos atendido a <strong>más de treinta mil pacientes</strong>. Adaptamos nuestros 
+            Contamos con consultorios odontológicos en San Miguel en los que
+            hemos atendido a <strong>más de treinta mil pacientes</strong>. Adaptamos nuestros
             servicios a tus necesidades y te brindamos uno hecho a tu medida
             ocupándonos de tu salud bucal de forma <strong>humana y personalizada</strong> desde
-            el primer momento en que te contactás con nosotros hasta después 
+            el primer momento en que te contactás con nosotros hasta después
             de haber terminado el tratamiento.
           </p>
         </article>
@@ -22,7 +22,7 @@ const Somos = () => {
           <CardValores
             title="Misión"
             description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y calidad de asistencia odontológica."
-            img="./images/Frame 205.png"
+            img="./images/Frame 205.webp"
           />
         </article>
         <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
@@ -30,14 +30,14 @@ const Somos = () => {
             title="Valores"
             description="Contamos con profesionales en formación
             permanente, brindamos un trato cordial y aranceles accesibles."
-            img="./images/Frame 443.png"
+            img="./images/Frame 443.webp"
           />
         </article>
         <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Visión"
             description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a aquello que caracteriza nuestro servicio."
-            img="./images/Frame 446.png"
+            img="./images/Frame 446.webp"
           />
         </article>
       </section>
