@@ -10,7 +10,7 @@
           "Puede utilizarse como anclaje de prótesis removibles.",
           "Evita desgaste de piezas contiguas a las dañadas para la confección de puentes, ya que reemplazan en forma individual.",
           "Dan apariencia natural emergando desde la encía.",
-          "Los implantes son de titanio, controlados y aprobados por el ANMAT."
+          "Los implantes son de titanio, controlados y aprobados por ANMAT."
         ],
         "process": "Es una intervención, que por lo general, se realiza en media hora y se espera la osteointegración, que es el tiempo que tarda en aceptarlo el organismo, una vez cumplido se realiza la colocación de la corona."
       },
@@ -48,7 +48,7 @@
           "Generan una estética dental adecuada.",
           "Hay distintas opciones de materiales y precios."
         ],
-        "process": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar. En diferentes sesiones realiza registros y pruebas que envía al laboratorio dental para la confección de las mismas, una vez instaladas suelen requerir algún control para asegurar su correcto funcionamiento.",
+        "process": "El odontólogo toma las impresiones dentales necesarias luego de evaluar y acordar con el paciente el tipo de prótesis a realizar. En diferentes sesiones realiza registros y pruebas que se envían al laboratorio dental para la confección de las mismas, una vez instaladas suelen requerir algún control para asegurar su correcto funcionamiento.",
         "titulo_acordeon": "Prótesis Implantosoportadas",
         "texto_acordeon": "Son prótesis que se fijan en implantes en lugar de usar los dientes naturales, con esta técnica puede recuperarse una o la totalidad de las piezas dentales.",
         "imagen_acordeon": "/images/protesis_dental_acordeon.png"
@@ -62,7 +62,7 @@
           "Evita pérdidas prematuras de piezas dentales.",
           "Mejora la apariencia del diente."
         ],
-        "process": "Es un proceso generalmente rápido en el cual repara el diente dañado y se reconstruye, permite realizar si es necesario en varias sesiones o en la misma."
+        "process": "Es un proceso generalmente rápido en el cual se repara el diente dañado y se reconstruye, permite realizar si es necesario en varias sesiones o en la misma."
       },
       {
         "ref": "cirugia_maxilofacial",
@@ -123,7 +123,7 @@
         "information": "Es un aclaramiento de color de los dientes con fines estéticos.",
         "adventages": [
           "Mejora el aspecto de los dientes, resalta la sonrisa.",
-          "Realiza el profesional capacitado utilizando procedimientos y materiales confiables y aprobados.",
+          "Lo realiza el profesional capacitado utilizando procedimientos y materiales confiables y aprobados.",
           "Puede realizarse hasta en una sesión."
         ],
         "process": "Este procedimiento es indoloro, no requiere de anestesia. Se aplica un producto sobre los dientes y un protector de gingiva sobre las encías para evitar irritación, luego con un led se activa el producto que hará efecto a la brevedad aclarando el diente, en el caso de sensibilidad se aplican productos para contrarrestar dicho efecto."
@@ -134,7 +134,7 @@
         "image": "/images/carillas_dentales.png",
         "information": "Se realizan con el fin de mejorar la estética de dientes, logrando mejorar la sonrisa.",
         "adventages": [
-          "Evita el tallado del diente natural.",
+          "Evite el tallado del diente natural.",
           "Es indoloro, no requiere uso de anestesia.",
           "Cierra espacios interdentales y permite dar forma y tono deseado al diente natural."
         ],
