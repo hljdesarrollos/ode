@@ -36,7 +36,7 @@ const Somos = () => {
         <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Visión"
-            description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a aquello que caracteriza nuestro servicio."
+            description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a la atencion que nos caracteriza."
             img="./images/Frame 446.png"
           />
         </article>
