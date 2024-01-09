@@ -22,7 +22,7 @@ const Somos = () => {
           <CardValores
             title="Misión"
             description="Estamos comprometidos con la búsqueda constante de la excelencia en los servicios y calidad de asistencia odontológica."
-            img="./images/Frame 205.png"
+            img="./images/Frame 205.webp"
           />
         </article>
         <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
@@ -30,14 +30,14 @@ const Somos = () => {
             title="Valores"
             description="Contamos con profesionales en formación
             permanente, brindamos un trato cordial y aranceles accesibles."
-            img="./images/Frame 443.png"
+            img="./images/Frame 443.webp"
           />
         </article>
         <article className="col-lg-4 col-md-4 col-sm-12 col-12 mb-4 mb-md-0">
           <CardValores
             title="Visión"
             description="Nuestro objetivo es acercar nuestros servicios a más personas sin renunciar a la atencion que nos caracteriza."
-            img="./images/Frame 446.png"
+            img="./images/Frame 446.webp"
           />
         </article>
       </section>
