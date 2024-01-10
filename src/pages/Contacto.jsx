@@ -6,7 +6,7 @@ const Contacto = () => {
       <article className="offset-1 col-lg-6 contacto-article">
       <div id="mapa">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8969204955524!2d-58.39184305031532!3d-34.60676798036276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb608cc87791%3A0x35973ad825de397b!2sODE!5e0!3m2!1ses!2sar!4v1678988445141!5m2!1ses!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.591724498811!2d-58.7171598!3d-34.5385705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd6b7e240ea5%3A0x2466cb6e36f9d135!2sConsultorios%20Ode!5e0!3m2!1ses!2sar!4v1704847059718!5m2!1ses!2sar"
             width="600"
             height="400"
             // style={{ border: 0 }}
