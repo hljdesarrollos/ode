@@ -9,7 +9,7 @@
       var(--main-color),
       var(--second-color));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-image: url('../images/bg-portada.png');
+  background-image: url('../images/bg-portada.webp');
   background-position: center;
   background-size: cover;
 }
