@@ -103,6 +103,7 @@ const Footer = () => {
               href="https://www.facebook.com/profile.php?id=100064051928429"
               target="_blank"
               style={{ textDecoration: "none", color: "white" }}
+              aria-label="link facebok"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -130,6 +131,7 @@ const Footer = () => {
                 href="https://www.instagram.com/ode.odontologia.sm"
                 target="_blank"
                 style={{ textDecoration: "none", color: "white" }}
+                aria-label="link instagram"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
