@@ -100,7 +100,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100009685352810"
+              href="https://www.facebook.com/profile.php?id=100064051928429"
               target="_blank"
               style={{ textDecoration: "none", color: "white" }}
             >
@@ -149,7 +149,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=100009685352810"
+                href="https://www.facebook.com/profile.php?id=100064051928429"
                 target="_blank"
                 style={{ textDecoration: "none", color: "white" }}
               >
