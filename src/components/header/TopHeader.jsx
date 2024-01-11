@@ -180,7 +180,8 @@ const TopHeader = ({ show, setShow }) => {
         </section>
         <div className="top-header_turno">
           <i className="fa-brands fa-whatsapp fa-xl"></i>
-          <a className="text-num" href="https://api.whatsapp.com/send?phone=1170147148">Solicitá tu turno</a>
+          <a className="text-num" href="https://api.whatsapp.com/send?phone=1170147148"
+          aria-label="Solicitá tu turno">Solicitá tu turno</a>
         </div>
       </div>
       <div className="top-header top-header-sm d-flex d-sm-none">
