@@ -32,7 +32,7 @@ const Contacto = () => {
           <li>
             <a href="mailto: deodontologia@ode.com.ar" aria-label="Mail: deodontologia@ode.com.ar">
               <i className="fa-regular fa-envelope fa-xl"></i>
-              <strong>Mail: deodontologia@ode.com.ar</strong>
+              <strong>Mail: eodontologia@ode.com.ar</strong>
             </a>
           </li>
           <li>
