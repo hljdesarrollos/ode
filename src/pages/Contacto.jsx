@@ -30,9 +30,9 @@ const Contacto = () => {
             <hr />
           </li>
           <li>
-            <a href="mailto: deodontologia@ode.com.ar" aria-label="Mail: deodontologia@ode.com.ar">
+            <a href="mailto: odeodontologia@ode.com.ar" aria-label="Mail: odeodontologia@ode.com.ar">
               <i className="fa-regular fa-envelope fa-xl"></i>
-              <strong>Mail: deodontologia@ode.com.ar</strong>
+              <strong>Mail: odeodontologia@ode.com.ar</strong>
             </a>
           </li>
           <li>
