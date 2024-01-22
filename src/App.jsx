@@ -7,6 +7,7 @@ import Contacto from "./pages/Contacto";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { useState } from "react";
+import notFound from "./components/home/404";
 
 function App() {
   const [show, setShow] = useState(true);
@@ -21,6 +22,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/tratamientos/:nombre" element={<Tratamientos />} />
+          <Route path="*" element={<notFound />} />
         </Routes>
         <Footer />
       </HashRouter>
