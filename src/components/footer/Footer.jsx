@@ -227,7 +227,7 @@ const Footer = () => {
             <i className="fa-brands fa-whatsapp fa-xl"></i>
             <a
               className="text-num"
-              href="https://api.whatsapp.com/send?phone=+5491170147148"
+              href="https://api.whatsapp.com/send?phone=5491170147148"
             >
               11 7014 7148
             </a>
@@ -240,7 +240,7 @@ const Footer = () => {
               <i className="fa-brands fa-whatsapp fa-xl"></i>
               <a
                 className="text-num"
-                href="https://api.whatsapp.com/send?phone=+5491170147148"
+                href="https://api.whatsapp.com/send?phone=5491170147148"
               >
                 11 7014 7148
               </a>
