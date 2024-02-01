@@ -57,9 +57,9 @@ const Contacto = () => {
             <hr />
           </li>
           <li>
-            <a href="https://api.whatsapp.com/send?phone=0123456789" aria-label="Whatsapp: 15 5661 4679">
+            <a href="https://api.whatsapp.com/send?phone=5491170147148" aria-label="Whatsapp: +54 9 11 7014 7148">
               <i className="fa-brands fa-whatsapp fa-xl"></i>
-              <strong>Whatsapp: 15 5661 4679</strong>
+              <strong>Whatsapp: +54 9 11 7014 7148</strong>
             </a>
           </li>
           <li>
