@@ -180,13 +180,13 @@ const TopHeader = ({ show, setShow }) => {
         </section>
         <div className="top-header_turno">
           <i className="fa-brands fa-whatsapp fa-xl"></i>
-          <a className="text-num" href="https://api.whatsapp.com/send?phone=1170147148"
-          aria-label="Solicitá tu turno">Solicitá tu turno</a>
+          <a className="text-num" href="https://api.whatsapp.com/send?phone=+5491170147148"
+            aria-label="Solicitá tu turno">Solicitá tu turno</a>
         </div>
       </div>
       <div className="top-header top-header-sm d-flex d-sm-none">
         <NavLink to={"/"} >
-        <svg
+          <svg
             width={60}
             height={60}
             viewBox="0 0 60 60"
