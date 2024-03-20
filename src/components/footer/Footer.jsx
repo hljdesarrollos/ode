@@ -3,9 +3,18 @@ import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import tratamientos from "../../../public/tratamientos.json";
 
+
 const Footer = () => {
+
   const { salud, estetica } = tratamientos[0];
   const [show, setShow] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <section className="footer container-fluid">
       <article className="row">
@@ -23,21 +32,23 @@ const Footer = () => {
           <hr />
           <div className="d-none d-sm-block">
             <div className="row">
-              {salud.map((item) => (
-                <div className="col-6 col-sm-4">
+              {salud.map((item, index) => (
+                <div   key={index} className="col-6 col-sm-4">
                   <NavLink
                     className="footer-item"
                     to={`/tratamientos/${item.ref}`}
+                    onClick={scrollToTop}
                   >
                     {item.name}
                   </NavLink>
                 </div>
               ))}
-              {estetica.map((item) => (
-                <div className="col-6 col-sm-4">
+              {estetica.map((item, index) => (
+                <div   key={index} className="col-6 col-sm-4">
                   <NavLink
                     className="footer-item"
                     to={`/tratamientos/${item.ref}`}
+                    onClick={scrollToTop}
                   >
                     {item.name}
                   </NavLink>
@@ -48,21 +59,23 @@ const Footer = () => {
           {show && (
             <div className="d-block d-sm-none">
               <div className="row">
-                {salud.map((item) => (
-                  <div className="col-12">
+                {salud.map((item, index) => (
+                  <div  key={index}className="col-12">
                     <NavLink
                       className="footer-item"
                       to={`/tratamientos/${item.ref}`}
+                      onClick={scrollToTop}
                     >
                       {item.name}
                     </NavLink>
                   </div>
                 ))}
-                {estetica.map((item) => (
-                  <div className="col-12">
+                {estetica.map((item, index) => (
+                  <div   key={index} className="col-12">
                     <NavLink
                       className="footer-item"
                       to={`/tratamientos/${item.ref}`}
+                      onClick={scrollToTop}
                     >
                       {item.name}
                     </NavLink>

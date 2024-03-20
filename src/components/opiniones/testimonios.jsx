@@ -25,21 +25,21 @@ function Testimonios() {
           <div className="carousel-item active">
             <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(0, 3).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor} dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(3, 6).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 mx-5">
               {filtrado.slice(6, 9).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor} dato={dato} />
               ))}
             </div>
           </div>
@@ -102,63 +102,63 @@ function Testimonios() {
           <div className="carousel-item active">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
               {filtrado.slice(0, 1).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
               {filtrado.slice(1, 2).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
               {filtrado.slice(2, 3).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-              {filtrado.slice(3, 4).map((dato) => (
-                <CardTestimonio dato={dato} />
+              {filtrado.slice(3, 4).map((dato ) => (
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-              {filtrado.slice(4, 5).map((dato) => (
-                <CardTestimonio dato={dato} />
+              {filtrado.slice(4, 5).map((dato ) => (
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-              {filtrado.slice(5, 6).map((dato) => (
-                <CardTestimonio dato={dato} />
+              {filtrado.slice(5, 6).map((dato ) => (
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-              {filtrado.slice(6, 7).map((dato) => (
-                <CardTestimonio dato={dato} />
+              {filtrado.slice(6, 7).map((dato ) => (
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
               {filtrado.slice(7, 8).map((dato) => (
-                <CardTestimonio dato={dato} />
+                <CardTestimonio key={dato.reviewAuthor}  dato={dato} />
               ))}
             </div>
           </div>
           <div className="carousel-item">
             <div className="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
-              {filtrado.slice(8, 9).map((dato) => (
-                <CardTestimonio dato={dato} />
+              {filtrado.slice(8, 9).map((dato ) => (
+                <CardTestimonio key={dato.reviewAuthor} dato={dato} />
               ))}
             </div>
           </div>
@@ -166,10 +166,12 @@ function Testimonios() {
         <div className="carousel-indicators ">
           {filtrado.map((data,index)=>(
             <button
+            key={index}
               type="button"
               data-bs-target="#carouselExampleIndicatorsSM"
               data-bs-slide-to={index}
-              className={index == 0 && "active"}
+              // className={index == 0 && "active"}
+              className={index === 0 ? "active" : ""}
               aria-label={`Slide ${index + 1}`}
             />
           ))}

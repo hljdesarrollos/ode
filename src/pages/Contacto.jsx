@@ -10,9 +10,9 @@ const Contacto = () => {
             width="600"
             height="400"
             // style={{ border: 0 }}
-            allowfullscreen=""
+            allowFullScreen=""
             style={{ borderRadius: '10px' }}
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </article>
