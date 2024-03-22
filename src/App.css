@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @font-face {
-    font-family: 'FF Nort';
+    font-family: 'FF Nort black';
     src: url('./public/fonts/FFNort-Black.eot');
     src: local('FF Nort Black'), local('FFNort-Black'),
         url('./public/fonts/FFNort-Black.woff2') format('woff2'),
@@ -44,4 +44,5 @@
     --third-fontfamily: 'FF Nort';
     --fourth-fontfamily: 'FF Nort Med';
     --fifth-fontfamily: 'Inter', sans-serif;
+    --sisth-fontfamily: 'FF Nort black'
 }
