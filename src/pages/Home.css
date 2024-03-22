@@ -58,7 +58,7 @@
 .home .presentacion .btn-action {
   background-color: var(--main-color);
   font-family: var(--title-fontfamily);
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   margin: 0 0 1.2rem;
   width: 50%;
