@@ -2,6 +2,12 @@ import { Link } from "react-router-dom";
 import { CardValores } from "../partials/CardValores";
 
 const Somos = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <article className="somos container container-md-fluid">
       <h2 className="section-title">Hola, somos ODE</h2>
@@ -42,7 +48,7 @@ const Somos = () => {
         </article>
       </section>
       <section className="text-center">
-        <Link to={"/nosotros"} className="btn btn-nosotros mt-3 mb-3">
+        <Link to={"/nosotros"} className="btn btn-nosotros mt-3 mb-3" onClick={scrollToTop} >
           Ver mas sobre nosotros
         </Link>
       </section>
